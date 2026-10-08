@@ -7,9 +7,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-*.joblib
+models/*.joblib
 *.pkl
 *.pickle
+!saved_models/**/*.joblib
 
 # Large raw datasets (keep processed data and answers/metadata)
 data/raw/

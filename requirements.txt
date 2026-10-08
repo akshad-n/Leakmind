@@ -25,7 +25,3 @@ streamlit>=1.30.0
 
 # Security & Utilities
 cryptography>=41.0.0
-
-# Development & Research
-jupyter>=1.0.0
-ipykernel>=6.25.0
