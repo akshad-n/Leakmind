@@ -1,0 +1,29 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.joblib
+*.pkl
+*.pickle
+
+# Large raw datasets (keep processed data and answers/metadata)
+data/raw/
+
+# Logs & temporary files
+logs/*.log
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE and Antigravity
+.vscode/
+.idea/
+.gemini/
+
+# Cloned temporary repo folder
+Leakmind/

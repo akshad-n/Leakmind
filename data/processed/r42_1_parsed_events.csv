@@ -1,0 +1,346 @@
+event_type,event_id,timestamp,user,pc,action,url,keywords,scenario
+logon,{K3V4-Y4OK65SI-1583GEOQ},10/23/2010 01:34:19,AAM0658,PC-9923,Logon,,,r4.2-1-AAM0658
+device,{H1L0-X7RH83FI-5967VUQY},10/23/2010 06:18:48,AAM0658,PC-9923,Connect,,,r4.2-1-AAM0658
+http,{Y4Q9-U5VQ11UG-1279ZPTL},10/23/2010 06:26:01,AAM0658,PC-9923,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,spy bait bait distort evade surveillance deceit distort surveillance report subterfuge evade covert confidential covert top-secret clandestine isreal russia lie deceit china forgery covert europe covert aisa confidential lie forgery clandestine currency surveillance europe bait surveillance confidential restricted spy spy currency handler restricted evade conspiracy subterfuge top-secret evade report isreal china 2010 handler spy forgery aisa chronicle isreal middle-east surveillance forgery,r4.2-1-AAM0658
+device,{W7C0-G1SW41KB-1991BUTL},10/23/2010 06:26:48,AAM0658,PC-9923,Disconnect,,,r4.2-1-AAM0658
+logon,{C7T3-B4IY16JF-6945LOFC},10/23/2010 06:28:17,AAM0658,PC-9923,Logoff,,,r4.2-1-AAM0658
+logon,{S8Q1-Z1OG01ED-8756DWPR},10/29/2010 00:06:47,AAM0658,PC-9923,Logon,,,r4.2-1-AAM0658
+device,{S1J0-Z2ZX87IX-2607ZUXY},10/29/2010 01:30:10,AAM0658,PC-9923,Connect,,,r4.2-1-AAM0658
+http,{Z8E0-S5AG27DJ-3234IKCE},10/29/2010 01:36:11,AAM0658,PC-9923,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,handler sabatoge currency distort subterfuge clandestine currency spy subterfuge covert isreal clandestine russia currency europe covert chronicle middle-east forgery restricted forgery handler conspiracy china chronicle europe spy spy distort currency confidential blackmail forgery deceit clandestine russia spy middle-east blackmail spy evade lie middle-east 2010 surveillance,r4.2-1-AAM0658
+device,{V6D8-B3FZ26HT-3583PJAI},10/29/2010 05:00:19,AAM0658,PC-9923,Disconnect,,,r4.2-1-AAM0658
+logon,{J6L0-W5OJ26KB-8630RYVJ},10/29/2010 05:23:28,AAM0658,PC-9923,Logoff,,,r4.2-1-AAM0658
+logon,{Q4V8-Q7GY61AR-5156JFIN},09/10/2010 19:12:01,AJR0932,PC-4748,Logon,,,r4.2-1-AJR0932
+device,{Y4R1-Z8TY05GU-7397GLKY},09/10/2010 20:01:33,AJR0932,PC-4748,Connect,,,r4.2-1-AJR0932
+device,{A7Y6-T2ZM78RE-3085IFRU},09/10/2010 20:01:34,AJR0932,PC-4748,Disconnect,,,r4.2-1-AJR0932
+http,{R4U0-L5EY71BN-9432WLPE},09/10/2010 20:01:34,AJR0932,PC-4748,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,covert bait surveillance confidential aisa isreal top-secret confidential europe middle-east confidential surveillance blackmail isreal covert spy russia middle-east confidential deceit restricted evade report forgery covert forgery middle-east report bait spy overthrow restricted evade europe lie restricted deceit restricted deceit,r4.2-1-AJR0932
+logon,{L7V8-B3VF10NY-3528JHMD},09/10/2010 20:50:41,AJR0932,PC-4748,Logoff,,,r4.2-1-AJR0932
+logon,{J0W5-D1UM54UE-1226CKXX},09/17/2010 23:47:50,AJR0932,PC-4748,Logon,,,r4.2-1-AJR0932
+device,{T4O3-W9NH72UI-2778USIL},09/18/2010 00:20:18,AJR0932,PC-4748,Connect,,,r4.2-1-AJR0932
+http,{P3P3-R5NS04UU-2644BJIC},09/18/2010 00:43:55,AJR0932,PC-4748,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,distort overthrow bait subterfuge restricted isreal lie covert confidential spy top-secret lie covert middle-east overthrow clandestine clandestine aisa lie deceit covert clandestine deceit spy covert middle-east sabatoge restricted isreal forgery deceit isreal spy surveillance distort sabatoge deceit distort surveillance europe europe deceit restricted isreal spy middle-east blackmail lie europe clandestine covert overthrow middle-east confidential,r4.2-1-AJR0932
+device,{I2P1-S9MC06AP-9989GDDO},09/18/2010 00:56:46,AJR0932,PC-4748,Disconnect,,,r4.2-1-AJR0932
+logon,{I7C2-D6NT66AA-1853AICO},09/18/2010 02:02:51,AJR0932,PC-4748,Logoff,,,r4.2-1-AJR0932
+logon,{N2V7-L0SV52SI-0770UHNW},07/30/2010 19:56:44,BDV0168,PC-2464,Logon,,,r4.2-1-BDV0168
+device,{A9P7-Q1LR28YZ-1188RVYV},07/30/2010 21:01:47,BDV0168,PC-2464,Connect,,,r4.2-1-BDV0168
+http,{I8N6-U2ZZ74YG-8052WLBW},07/30/2010 21:03:07,BDV0168,PC-2464,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,europe surveillance currency report deceit forgery russia middle-east surveillance subterfuge russia covert top-secret bait chronicle deceit russia lie lie covert currency middle-east middle-east lie clandestine overthrow clandestine isreal china europe isreal china bait middle-east top-secret forgery russia covert isreal deceit europe spy deceit chronicle bait russia bait covert sabatoge russia europe surveillance surveillance forgery spy sabatoge report evade evade europe restricted deceit currency russia spy,r4.2-1-BDV0168
+device,{F8O0-R3QY89LS-1747DJSB},07/30/2010 21:03:09,BDV0168,PC-2464,Disconnect,,,r4.2-1-BDV0168
+logon,{L4L3-X6WU68LU-5259EBYN},07/30/2010 21:16:17,BDV0168,PC-2464,Logoff,,,r4.2-1-BDV0168
+logon,{K6Y8-I3KT71BP-2649YPST},08/06/2010 03:05:29,BDV0168,PC-2464,Logon,,,r4.2-1-BDV0168
+device,{Q0D1-P0CW14MM-3576DVCW},08/06/2010 04:48:47,BDV0168,PC-2464,Connect,,,r4.2-1-BDV0168
+http,{A9Q3-H9PL02VR-1539OUHV},08/06/2010 04:51:48,BDV0168,PC-2464,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,lie top-secret europe deceit bait restricted clandestine forgery russia blackmail clandestine china china blackmail covert aisa overthrow lie sabatoge top-secret bait confidential spy overthrow spy confidential top-secret restricted deceit lie chronicle restricted middle-east 2010 surveillance sabatoge middle-east europe spy bait top-secret,r4.2-1-BDV0168
+device,{H4M3-S4FR06BY-1406FBFM},08/06/2010 04:53:57,BDV0168,PC-2464,Disconnect,,,r4.2-1-BDV0168
+logon,{A3H5-K3CV21LY-0335FCNS},08/06/2010 04:57:30,BDV0168,PC-2464,Logoff,,,r4.2-1-BDV0168
+logon,{B0X8-R4PB58NP-6668RYVA},08/10/2010 04:52:41,BDV0168,PC-2464,Logon,,,r4.2-1-BDV0168
+device,{W9U7-Q3DO59CP-2875FDLE},08/10/2010 05:03:35,BDV0168,PC-2464,Connect,,,r4.2-1-BDV0168
+http,{U9A2-N5EF84OH-1009SWMB},08/10/2010 05:10:36,BDV0168,PC-2464,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,china surveillance surveillance overthrow spy sabatoge restricted forgery distort blackmail bait restricted russia confidential top-secret clandestine subterfuge distort subterfuge russia distort aisa clandestine restricted covert russia clandestine aisa currency surveillance evade isreal covert evade russia confidential 2010 chronicle covert spy currency confidential currency clandestine blackmail russia restricted,r4.2-1-BDV0168
+device,{W4U5-F0XC05SG-5537MBYV},08/10/2010 05:12:03,BDV0168,PC-2464,Disconnect,,,r4.2-1-BDV0168
+logon,{F1A3-X6PF23ZR-7126GVJX},08/10/2010 05:16:41,BDV0168,PC-2464,Logoff,,,r4.2-1-BDV0168
+logon,{K1B2-N6OZ19XO-7148MLSP},07/13/2010 20:15:23,BIH0745,PC-2661,Logon,,,r4.2-1-BIH0745
+device,{Y3M2-Z6XM78GC-6283GEZU},07/13/2010 21:06:06,BIH0745,PC-2661,Connect,,,r4.2-1-BIH0745
+http,{O4T8-D4QZ55FR-8512IAJW},07/13/2010 21:06:44,BIH0745,PC-2661,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,lie subterfuge china sabatoge top-secret russia middle-east 2010 bait distort china subterfuge lie russia overthrow 2010 report sabatoge spy china spy spy forgery aisa forgery isreal subterfuge sabatoge blackmail report bait currency clandestine deceit china report surveillance bait covert isreal currency russia middle-east distort overthrow lie blackmail restricted covert blackmail clandestine europe top-secret evade deceit conspiracy overthrow evade europe forgery forgery,r4.2-1-BIH0745
+device,{S7Z7-F8GG07WE-5470ZMDD},07/13/2010 21:09:08,BIH0745,PC-2661,Disconnect,,,r4.2-1-BIH0745
+logon,{I4V0-J7OH43HZ-7956NEXE},07/13/2010 21:20:44,BIH0745,PC-2661,Logoff,,,r4.2-1-BIH0745
+logon,{H5M9-E4GU47TS-2991DMNK},09/21/2010 01:16:22,BLS0678,PC-6031,Logon,,,r4.2-1-BLS0678
+device,{S1T0-E5SZ35TF-5143KLFY},09/21/2010 02:46:59,BLS0678,PC-6031,Connect,,,r4.2-1-BLS0678
+http,{N7J5-Z3BW40PP-9252FCEK},09/21/2010 02:47:56,BLS0678,PC-6031,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,handler sabatoge forgery middle-east middle-east top-secret distort sabatoge aisa forgery lie spy deceit forgery aisa spy currency spy lie surveillance forgery deceit blackmail covert forgery bait surveillance surveillance forgery russia covert report bait currency covert conspiracy spy spy confidential blackmail china middle-east chronicle forgery middle-east surveillance sabatoge,r4.2-1-BLS0678
+device,{R4T0-A0VP51YA-2744THEC},09/21/2010 02:48:37,BLS0678,PC-6031,Disconnect,,,r4.2-1-BLS0678
+logon,{M3M4-C8YB70JN-4776PTQV},09/21/2010 03:44:49,BLS0678,PC-6031,Logoff,,,r4.2-1-BLS0678
+logon,{Y3V9-J3OX51PK-1617PXNW},09/29/2010 17:36:12,BLS0678,PC-6031,Logon,,,r4.2-1-BLS0678
+device,{F0D4-X4BP77OM-1802ULCG},09/29/2010 18:52:55,BLS0678,PC-6031,Connect,,,r4.2-1-BLS0678
+http,{X8W9-N2TW91WV-9895JKUB},09/29/2010 19:01:18,BLS0678,PC-6031,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,distort lie overthrow sabatoge deceit bait europe bait currency russia overthrow distort covert clandestine lie sabatoge evade top-secret isreal currency clandestine distort currency surveillance sabatoge currency middle-east subterfuge forgery clandestine sabatoge 2010 evade blackmail clandestine deceit forgery sabatoge aisa europe lie confidential chronicle covert,r4.2-1-BLS0678
+device,{E3P0-I0CM71JW-7152TNLM},09/29/2010 19:05:29,BLS0678,PC-6031,Disconnect,,,r4.2-1-BLS0678
+logon,{A4M8-E2JY79ZI-1744AMBM},09/30/2010 04:48:19,BLS0678,PC-6031,Logoff,,,r4.2-1-BLS0678
+logon,{B3D5-C0JD16NA-6963WQHG},10/06/2010 22:25:52,BTL0226,PC-4534,Logon,,,r4.2-1-BTL0226
+device,{K0O3-V9KP39LG-0175UALA},10/06/2010 22:59:33,BTL0226,PC-4534,Connect,,,r4.2-1-BTL0226
+http,{M2V5-H1UK89KV-4141PKRX},10/06/2010 23:00:37,BTL0226,PC-4534,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,middle-east isreal china europe blackmail china top-secret top-secret aisa lie covert currency spy middle-east report spy middle-east middle-east restricted surveillance europe report currency subterfuge clandestine overthrow sabatoge russia restricted blackmail isreal covert bait isreal overthrow evade russia surveillance isreal distort evade conspiracy surveillance lie currency blackmail covert distort clandestine surveillance russia lie deceit,r4.2-1-BTL0226
+device,{U8W1-W4ON31SX-7413TZZI},10/06/2010 23:04:34,BTL0226,PC-4534,Disconnect,,,r4.2-1-BTL0226
+logon,{Q0Q4-Y0HC07DO-5514PQDI},10/06/2010 23:29:40,BTL0226,PC-4534,Logoff,,,r4.2-1-BTL0226
+logon,{G5S6-I1KR94KM-3789VTLR},10/12/2010 02:06:22,BTL0226,PC-4534,Logon,,,r4.2-1-BTL0226
+device,{R0G8-V7BY20UG-6624MGFQ},10/12/2010 02:45:19,BTL0226,PC-4534,Connect,,,r4.2-1-BTL0226
+http,{U1O3-Z0KJ34GK-8578BRGD},10/12/2010 02:52:24,BTL0226,PC-4534,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,lie covert lie forgery lie distort blackmail surveillance russia 2010 middle-east aisa handler clandestine sabatoge europe bait distort report spy clandestine china distort subterfuge blackmail report bait clandestine europe forgery sabatoge russia europe spy lie distort china surveillance evade report overthrow evade top-secret lie blackmail forgery surveillance restricted top-secret handler handler,r4.2-1-BTL0226
+device,{Y5Y5-U5QH77OM-2638FAML},10/12/2010 02:57:13,BTL0226,PC-4534,Disconnect,,,r4.2-1-BTL0226
+logon,{O9B6-P4HG32NC-6629ADFD},10/12/2010 03:16:41,BTL0226,PC-4534,Logoff,,,r4.2-1-BTL0226
+logon,{W8T5-U4IC65UK-1324BACO},10/14/2010 02:25:48,BTL0226,PC-4534,Logon,,,r4.2-1-BTL0226
+device,{X5F4-S4RS66YB-0606FBCS},10/14/2010 05:51:44,BTL0226,PC-4534,Connect,,,r4.2-1-BTL0226
+http,{T1M1-M3DT87YQ-8856LKEA},10/14/2010 05:52:09,BTL0226,PC-4534,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,sabatoge blackmail sabatoge surveillance aisa russia conspiracy deceit middle-east deceit clandestine subterfuge china 2010 bait restricted blackmail aisa distort bait overthrow sabatoge handler middle-east china china deceit restricted blackmail isreal bait chronicle restricted sabatoge middle-east china russia europe spy distort currency blackmail distort europe forgery covert aisa forgery lie middle-east clandestine,r4.2-1-BTL0226
+device,{H5Z5-B9LX16KU-2409FFCF},10/14/2010 05:52:51,BTL0226,PC-4534,Disconnect,,,r4.2-1-BTL0226
+logon,{E6H3-R2AQ84TH-3196CHHG},10/14/2010 06:43:29,BTL0226,PC-4534,Logoff,,,r4.2-1-BTL0226
+logon,{K5L6-C9WO01EU-2175WRCX},08/11/2010 04:00:08,CAH0936,PC-2276,Logon,,,r4.2-1-CAH0936
+device,{C1H8-J5AW20MS-7172NEOQ},08/11/2010 05:11:45,CAH0936,PC-2276,Connect,,,r4.2-1-CAH0936
+http,{R2B0-K3XR29LD-3843IVSD},08/11/2010 05:12:42,CAH0936,PC-2276,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,spy forgery report report distort china top-secret overthrow russia forgery aisa sabatoge confidential middle-east distort russia restricted surveillance aisa sabatoge covert forgery middle-east russia lie covert russia distort isreal china restricted distort forgery isreal distort report spy distort lie evade sabatoge spy bait china forgery middle-east restricted conspiracy surveillance surveillance spy,r4.2-1-CAH0936
+device,{I9V3-W5SE88SJ-3321PPSK},08/11/2010 05:13:23,CAH0936,PC-2276,Disconnect,,,r4.2-1-CAH0936
+logon,{N9D5-Q4RW80WN-6411NTIE},08/11/2010 05:17:58,CAH0936,PC-2276,Logoff,,,r4.2-1-CAH0936
+logon,{P8T1-L2SM47CU-6397CMRF},08/12/2010 21:56:31,CAH0936,PC-2276,Logon,,,r4.2-1-CAH0936
+device,{U9W4-B3RH19NK-8317ILCO},08/12/2010 22:42:40,CAH0936,PC-2276,Connect,,,r4.2-1-CAH0936
+http,{F2C3-H8PG20SL-1962KHXC},08/12/2010 22:42:44,CAH0936,PC-2276,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,overthrow europe spy spy covert russia subterfuge aisa middle-east covert subterfuge china spy spy surveillance report confidential top-secret clandestine russia surveillance currency lie confidential top-secret middle-east forgery forgery evade chronicle europe subterfuge sabatoge evade aisa distort clandestine 2010 surveillance covert top-secret china forgery restricted blackmail europe chronicle surveillance clandestine blackmail restricted russia clandestine,r4.2-1-CAH0936
+device,{S3R7-W3WJ95NO-0492IMHC},08/12/2010 22:43:18,CAH0936,PC-2276,Disconnect,,,r4.2-1-CAH0936
+logon,{T8D3-D1TI93BE-9063OKZV},08/12/2010 23:56:19,CAH0936,PC-2276,Logoff,,,r4.2-1-CAH0936
+logon,{C1B0-K9JP28LV-0888WGPH},02/04/2011 07:08:00,DCH0843,PC-8720,Logon,,,r4.2-1-DCH0843
+device,{L4B0-I0GS79ZK-1970HZSQ},02/04/2011 07:22:10,DCH0843,PC-8720,Connect,,,r4.2-1-DCH0843
+http,{B9A3-K2MR85SN-0084ONSR},02/04/2011 07:28:47,DCH0843,PC-8720,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,russia restricted covert aisa report forgery restricted aisa forgery 2010 aisa russia europe confidential report clandestine europe lie covert deceit currency clandestine lie chronicle currency surveillance sabatoge top-secret china surveillance lie clandestine lie restricted deceit middle-east europe evade conspiracy handler overthrow distort sabatoge distort distort distort china clandestine europe,r4.2-1-DCH0843
+device,{R0N4-O6LA26ZU-8031ZPOM},02/04/2011 07:31:09,DCH0843,PC-8720,Disconnect,,,r4.2-1-DCH0843
+logon,{K8T8-P3XI57VD-9749ENFK},02/04/2011 07:36:05,DCH0843,PC-8720,Logoff,,,r4.2-1-DCH0843
+logon,{B9G3-H7BW20EE-4408BFCL},07/22/2010 21:48:43,EHB0824,PC-0141,Logon,,,r4.2-1-EHB0824
+device,{K7Z6-E1AC31MP-9153MWLH},07/22/2010 22:23:34,EHB0824,PC-0141,Connect,,,r4.2-1-EHB0824
+http,{W2X8-T9WI95SF-8448AQIW},07/22/2010 22:26:32,EHB0824,PC-0141,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,spy evade top-secret china handler 2010 restricted forgery blackmail forgery clandestine evade blackmail 2010 china evade covert russia europe conspiracy clandestine bait confidential bait distort middle-east china top-secret 2010 isreal covert distort spy europe 2010 deceit evade evade middle-east bait report handler surveillance clandestine top-secret bait aisa currency currency surveillance,r4.2-1-EHB0824
+device,{X3A4-P7TA28AW-5873TATF},07/22/2010 22:28:18,EHB0824,PC-0141,Disconnect,,,r4.2-1-EHB0824
+logon,{Y1M4-V6SP86AJ-8020APZC},07/23/2010 02:10:53,EHB0824,PC-0141,Logoff,,,r4.2-1-EHB0824
+logon,{R2K2-E7AI92AW-4573CBQU},07/27/2010 06:04:20,EHB0824,PC-0141,Logon,,,r4.2-1-EHB0824
+device,{I4X1-R3CI32YX-6261PUCD},07/27/2010 06:29:04,EHB0824,PC-0141,Connect,,,r4.2-1-EHB0824
+http,{M8Q9-F6GB72NB-2039AXBC},07/27/2010 06:30:42,EHB0824,PC-0141,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,currency conspiracy covert aisa russia spy middle-east bait covert conspiracy spy russia restricted surveillance surveillance deceit middle-east china 2010 chronicle sabatoge confidential china currency conspiracy isreal sabatoge overthrow forgery middle-east covert restricted deceit chronicle clandestine overthrow clandestine aisa isreal distort middle-east overthrow overthrow surveillance covert top-secret china distort deceit spy covert top-secret,r4.2-1-EHB0824
+device,{Q8E2-V7SD33JI-1121FPVP},07/27/2010 07:00:35,EHB0824,PC-0141,Disconnect,,,r4.2-1-EHB0824
+logon,{F5T8-I7ZS00CS-2468KQZU},07/27/2010 07:33:39,EHB0824,PC-0141,Logoff,,,r4.2-1-EHB0824
+logon,{A3E9-J5NJ11UB-4631BRUL},07/28/2010 03:55:01,EHB0824,PC-0141,Logon,,,r4.2-1-EHB0824
+device,{W5J7-G4NZ84TD-8063SNLL},07/28/2010 04:15:20,EHB0824,PC-0141,Connect,,,r4.2-1-EHB0824
+http,{I2V9-S3VM95CO-8479DURO},07/28/2010 04:31:01,EHB0824,PC-0141,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,aisa clandestine report europe top-secret bait bait covert middle-east evade handler surveillance confidential confidential conspiracy evade top-secret china restricted blackmail middle-east restricted subterfuge covert europe middle-east currency middle-east distort currency blackmail sabatoge distort confidential overthrow forgery evade covert china lie spy bait confidential conspiracy deceit europe handler aisa,r4.2-1-EHB0824
+device,{V0B6-O7XK93HC-4633HBYW},07/28/2010 04:40:58,EHB0824,PC-0141,Disconnect,,,r4.2-1-EHB0824
+logon,{W5Q4-L4MG90KE-0609JYJR},07/28/2010 05:34:24,EHB0824,PC-0141,Logoff,,,r4.2-1-EHB0824
+logon,{V5A3-N0SM43NT-5184WRIC},07/28/2010 20:58:14,EHB0824,PC-0141,Logon,,,r4.2-1-EHB0824
+device,{D5J0-J2YY21WS-7195OBQB},07/28/2010 22:10:47,EHB0824,PC-0141,Connect,,,r4.2-1-EHB0824
+http,{T9R0-J6GD77WJ-7714AJBZ},07/28/2010 22:16:40,EHB0824,PC-0141,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,europe middle-east spy top-secret russia overthrow deceit report russia middle-east isreal lie distort restricted covert aisa middle-east europe confidential top-secret report europe restricted restricted surveillance russia surveillance restricted russia currency currency russia isreal currency confidential chronicle surveillance aisa forgery blackmail sabatoge restricted lie covert overthrow russia bait,r4.2-1-EHB0824
+device,{H0I0-O7FT98GC-7253SNPB},07/28/2010 22:19:12,EHB0824,PC-0141,Disconnect,,,r4.2-1-EHB0824
+logon,{H4J5-O5MW16HN-5642DEAS},07/29/2010 01:08:41,EHB0824,PC-0141,Logoff,,,r4.2-1-EHB0824
+logon,{Q3Y6-O8EP88PV-2591XJWF},10/02/2010 03:46:16,EHD0584,PC-8669,Logon,,,r4.2-1-EHD0584
+device,{J2M5-N9ZD97MC-2527HAPD},10/02/2010 04:23:02,EHD0584,PC-8669,Connect,,,r4.2-1-EHD0584
+http,{Z7M3-F0DQ35HB-9595ZHAO},10/02/2010 04:31:35,EHD0584,PC-8669,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,russia blackmail europe sabatoge confidential middle-east china covert sabatoge clandestine surveillance surveillance middle-east top-secret europe lie europe lie isreal currency middle-east spy russia bait top-secret restricted confidential currency clandestine europe lie aisa currency isreal europe overthrow conspiracy currency surveillance covert china sabatoge sabatoge top-secret confidential forgery currency restricted middle-east covert deceit spy sabatoge isreal,r4.2-1-EHD0584
+device,{J9I5-B7LO36SN-6104HXYE},10/02/2010 04:39:49,EHD0584,PC-8669,Disconnect,,,r4.2-1-EHD0584
+logon,{E0E1-S8MU49NI-1630HZMG},10/02/2010 05:13:30,EHD0584,PC-8669,Logoff,,,r4.2-1-EHD0584
+logon,{B5E3-W3DG87OM-4636MCLJ},10/07/2010 23:01:24,EHD0584,PC-8669,Logon,,,r4.2-1-EHD0584
+device,{T1C7-H9EN56ZL-2454IAUC},10/07/2010 23:23:28,EHD0584,PC-8669,Connect,,,r4.2-1-EHD0584
+http,{M7X5-K8XI25BW-5890PKSG},10/07/2010 23:31:14,EHD0584,PC-8669,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,russia covert top-secret restricted chronicle middle-east deceit surveillance covert distort lie surveillance lie handler clandestine europe blackmail subterfuge sabatoge middle-east russia handler bait currency middle-east blackmail evade middle-east distort bait deceit 2010 covert forgery deceit lie forgery covert sabatoge handler,r4.2-1-EHD0584
+device,{T0R6-N9WH97WA-8281BFQA},10/07/2010 23:46:18,EHD0584,PC-8669,Disconnect,,,r4.2-1-EHD0584
+logon,{G1A6-B3QO02YZ-7055WEQS},10/08/2010 02:16:25,EHD0584,PC-8669,Logoff,,,r4.2-1-EHD0584
+logon,{J2T7-U6SE78DZ-5070KUVM},10/08/2010 20:03:33,EHD0584,PC-8669,Logon,,,r4.2-1-EHD0584
+device,{N4V7-T6DM10CZ-1408UVRB},10/08/2010 20:09:07,EHD0584,PC-8669,Connect,,,r4.2-1-EHD0584
+http,{P6S8-A9BY56ZG-9031XFHB},10/08/2010 20:09:07,EHD0584,PC-8669,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,europe bait middle-east surveillance middle-east china distort blackmail chronicle lie confidential sabatoge top-secret evade confidential report surveillance top-secret 2010 distort middle-east 2010 handler russia lie distort chronicle overthrow clandestine restricted currency forgery currency evade deceit currency deceit lie restricted sabatoge russia sabatoge middle-east russia report subterfuge spy lie currency deceit blackmail middle-east lie isreal bait aisa middle-east currency restricted deceit restricted,r4.2-1-EHD0584
+device,{H1T3-B8NZ03EV-8764TPFM},10/08/2010 20:09:13,EHD0584,PC-8669,Disconnect,,,r4.2-1-EHD0584
+logon,{R9C2-M3JM56IB-6636PACE},10/08/2010 22:26:26,EHD0584,PC-8669,Logoff,,,r4.2-1-EHD0584
+logon,{I3B0-B4MF78PJ-5980TMXQ},01/05/2011 21:53:29,FMG0527,PC-4256,Logon,,,r4.2-1-FMG0527
+device,{V7R2-W5QK86PV-3661MGEC},01/05/2011 22:12:54,FMG0527,PC-4256,Connect,,,r4.2-1-FMG0527
+http,{B1W4-B6UV58BM-0180ZJPC},01/05/2011 22:18:10,FMG0527,PC-4256,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,currency report spy middle-east surveillance lie handler spy distort top-secret top-secret top-secret deceit restricted clandestine deceit deceit top-secret lie clandestine lie sabatoge clandestine surveillance distort clandestine middle-east bait evade surveillance conspiracy top-secret currency conspiracy europe clandestine restricted overthrow distort covert isreal russia chronicle forgery distort overthrow clandestine lie handler 2010 china forgery,r4.2-1-FMG0527
+device,{J1T0-Y8BT51ME-2531GFMO},01/05/2011 22:21:10,FMG0527,PC-4256,Disconnect,,,r4.2-1-FMG0527
+logon,{H5W6-N8BP07OO-9909ZNZE},01/05/2011 22:48:01,FMG0527,PC-4256,Logoff,,,r4.2-1-FMG0527
+logon,{T6G6-X8PO85WD-5105HBYP},01/11/2011 23:33:58,FMG0527,PC-4256,Logon,,,r4.2-1-FMG0527
+device,{B2O5-V7VT00CH-8680KMLZ},01/11/2011 23:43:42,FMG0527,PC-4256,Connect,,,r4.2-1-FMG0527
+http,{W5C9-M8NC02OE-1609RKTA},01/11/2011 23:43:53,FMG0527,PC-4256,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,lie lie clandestine surveillance sabatoge middle-east distort conspiracy subterfuge forgery subterfuge currency chronicle russia clandestine overthrow aisa overthrow middle-east top-secret lie clandestine forgery 2010 handler lie overthrow conspiracy forgery surveillance clandestine spy russia 2010 covert top-secret report sabatoge isreal report isreal clandestine forgery covert subterfuge clandestine europe distort clandestine surveillance lie isreal sabatoge clandestine china top-secret clandestine bait overthrow subterfuge report,r4.2-1-FMG0527
+device,{P8R8-J6XP35TF-7540RPCI},01/11/2011 23:47:44,FMG0527,PC-4256,Disconnect,,,r4.2-1-FMG0527
+logon,{Z9B5-Z8EC60IU-6432VJQH},01/12/2011 01:15:35,FMG0527,PC-4256,Logoff,,,r4.2-1-FMG0527
+logon,{L1A0-X3OD03QV-9450KGJI},11/25/2010 06:35:11,FTM0406,PC-1786,Logon,,,r4.2-1-FTM0406
+device,{Y5K5-C6AF28XA-5238BVTN},11/25/2010 06:45:46,FTM0406,PC-1786,Connect,,,r4.2-1-FTM0406
+http,{N5G9-W9SS50SL-9399ZFUG},11/25/2010 06:45:57,FTM0406,PC-1786,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,surveillance middle-east currency china sabatoge conspiracy handler russia sabatoge evade isreal distort russia evade middle-east conspiracy distort restricted clandestine evade restricted overthrow chronicle bait bait europe bait lie spy spy sabatoge confidential top-secret isreal currency bait top-secret report forgery currency covert,r4.2-1-FTM0406
+device,{S0F7-W2LZ64WJ-4108ZIKN},11/25/2010 06:46:03,FTM0406,PC-1786,Disconnect,,,r4.2-1-FTM0406
+logon,{M4Y1-P1MF23RY-1605UHAS},11/25/2010 06:51:18,FTM0406,PC-1786,Logoff,,,r4.2-1-FTM0406
+logon,{N8T8-Z9EI47NB-9260BFEF},12/02/2010 00:09:23,FTM0406,PC-1786,Logon,,,r4.2-1-FTM0406
+device,{G9Y0-H8NJ46SV-5329KZVC},12/02/2010 00:28:19,FTM0406,PC-1786,Connect,,,r4.2-1-FTM0406
+http,{I9T8-Q9JX59RJ-2020STRW},12/02/2010 00:32:53,FTM0406,PC-1786,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,spy clandestine lie spy forgery top-secret spy currency covert forgery confidential restricted forgery aisa surveillance lie forgery surveillance middle-east forgery middle-east middle-east evade spy aisa evade overthrow isreal middle-east surveillance currency restricted clandestine report sabatoge middle-east restricted confidential confidential currency currency surveillance top-secret europe forgery forgery report report currency lie sabatoge report spy currency lie restricted subterfuge covert top-secret top-secret blackmail conspiracy sabatoge lie aisa russia evade,r4.2-1-FTM0406
+device,{F7R0-U9WX71GE-4408ULZT},12/02/2010 00:33:27,FTM0406,PC-1786,Disconnect,,,r4.2-1-FTM0406
+logon,{U8W6-U4LU66CA-6523JFDJ},12/02/2010 00:35:19,FTM0406,PC-1786,Logoff,,,r4.2-1-FTM0406
+logon,{K1U5-F9CH30QV-1305BZYB},11/09/2010 06:28:40,GHL0460,PC-6255,Logon,,,r4.2-1-GHL0460
+device,{Q3Y2-A0PA77RM-7969SUXX},11/09/2010 06:44:20,GHL0460,PC-6255,Connect,,,r4.2-1-GHL0460
+http,{L9Q2-W2ZZ13SO-2268DHYC},11/09/2010 06:55:58,GHL0460,PC-6255,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,restricted spy spy distort forgery top-secret covert conspiracy deceit clandestine lie report blackmail deceit middle-east europe conspiracy spy surveillance 2010 forgery overthrow spy sabatoge middle-east distort clandestine surveillance bait covert chronicle handler restricted deceit currency spy bait deceit bait evade surveillance evade lie sabatoge handler middle-east restricted europe aisa,r4.2-1-GHL0460
+device,{R6O0-J0DG04SW-9105GYSQ},11/09/2010 07:06:33,GHL0460,PC-6255,Disconnect,,,r4.2-1-GHL0460
+logon,{C7D3-G4BR41IX-7770RREP},11/09/2010 07:08:45,GHL0460,PC-6255,Logoff,,,r4.2-1-GHL0460
+logon,{Z5C5-M9ZL74EP-7606GCQK},11/19/2010 05:53:16,HJB0742,PC-5635,Logon,,,r4.2-1-HJB0742
+device,{C6T4-W7ZL07RX-2158EZAB},11/19/2010 06:46:12,HJB0742,PC-5635,Connect,,,r4.2-1-HJB0742
+http,{G1J9-S4AW94HY-5090RVSN},11/19/2010 06:49:07,HJB0742,PC-5635,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,china russia restricted surveillance top-secret distort covert sabatoge lie china spy report confidential top-secret top-secret lie top-secret 2010 subterfuge lie distort covert currency spy europe top-secret currency russia covert evade restricted subterfuge middle-east subterfuge evade middle-east clandestine evade europe lie evade forgery covert confidential forgery europe surveillance surveillance confidential top-secret sabatoge confidential lie restricted forgery china isreal europe distort forgery,r4.2-1-HJB0742
+device,{K9Z3-G3FA25SY-1631IHND},11/19/2010 06:52:02,HJB0742,PC-5635,Disconnect,,,r4.2-1-HJB0742
+logon,{K8P2-R8KH44KS-3470THEM},11/19/2010 06:59:41,HJB0742,PC-5635,Logoff,,,r4.2-1-HJB0742
+logon,{H2Y6-W3IZ06JP-7508RSLL},11/24/2010 23:55:22,HJB0742,PC-5635,Logon,,,r4.2-1-HJB0742
+device,{C9G1-A2ZL51CG-2028NFTY},11/25/2010 04:09:24,HJB0742,PC-5635,Connect,,,r4.2-1-HJB0742
+http,{Q1E9-K4DF86UL-5984FBNL},11/25/2010 04:27:30,HJB0742,PC-5635,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,top-secret blackmail covert restricted bait spy top-secret middle-east sabatoge spy 2010 spy distort covert subterfuge lie bait middle-east overthrow middle-east handler forgery middle-east spy sabatoge distort evade europe clandestine lie middle-east restricted blackmail restricted surveillance distort europe confidential russia forgery sabatoge distort restricted lie isreal distort spy 2010 surveillance china sabatoge middle-east restricted surveillance overthrow bait confidential lie 2010 report subterfuge sabatoge restricted distort chronicle conspiracy surveillance forgery europe,r4.2-1-HJB0742
+device,{H4G9-A4HA94VV-0162RZGA},11/25/2010 04:49:40,HJB0742,PC-5635,Disconnect,,,r4.2-1-HJB0742
+logon,{W6X9-F3DB11HD-3264ILKU},11/25/2010 04:51:16,HJB0742,PC-5635,Logoff,,,r4.2-1-HJB0742
+logon,{N9K8-B0VD20AP-3708XHCB},07/14/2010 00:56:15,JMB0308,PC-0814,Logon,,,r4.2-1-JMB0308
+device,{N3N6-O0HT90BA-1989RMIT},07/14/2010 01:19:39,JMB0308,PC-0814,Connect,,,r4.2-1-JMB0308
+http,{K9O4-B3NA42RC-3992XMRA},07/14/2010 01:48:41,JMB0308,PC-0814,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,middle-east confidential distort deceit middle-east currency top-secret conspiracy overthrow currency blackmail currency bait europe currency sabatoge surveillance clandestine evade blackmail bait evade spy surveillance spy covert chronicle surveillance top-secret isreal aisa subterfuge forgery isreal top-secret currency surveillance restricted covert conspiracy surveillance bait isreal spy,r4.2-1-JMB0308
+device,{E6V2-P4QB20EX-5172UZXF},07/14/2010 02:12:35,JMB0308,PC-0814,Disconnect,,,r4.2-1-JMB0308
+logon,{I3Z9-X1RR94CQ-9457XWJM},07/14/2010 03:56:04,JMB0308,PC-0814,Logoff,,,r4.2-1-JMB0308
+logon,{J2Q3-S8VK14JT-0978ZYEN},07/15/2010 03:56:47,JMB0308,PC-0814,Logon,,,r4.2-1-JMB0308
+device,{N4L4-X8HB31YA-6276NWDU},07/15/2010 05:21:36,JMB0308,PC-0814,Connect,,,r4.2-1-JMB0308
+http,{H8S9-S7UO99AT-4612MJCD},07/15/2010 06:22:45,JMB0308,PC-0814,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,middle-east sabatoge distort conspiracy spy middle-east forgery distort confidential middle-east forgery surveillance distort 2010 isreal conspiracy isreal china deceit 2010 conspiracy china chronicle covert lie sabatoge clandestine russia isreal blackmail restricted isreal spy middle-east deceit isreal top-secret spy surveillance isreal bait restricted,r4.2-1-JMB0308
+device,{S5D4-D9NR16ZZ-4581MOFQ},07/15/2010 06:36:09,JMB0308,PC-0814,Disconnect,,,r4.2-1-JMB0308
+logon,{T9C9-D4YK08DJ-4629CBLS},07/15/2010 06:53:36,JMB0308,PC-0814,Logoff,,,r4.2-1-JMB0308
+logon,{Q7F1-B0VV88ZH-8624ZCPM},07/20/2010 21:32:35,JMB0308,PC-0814,Logon,,,r4.2-1-JMB0308
+device,{X7E0-J0OH95YP-7028VTXM},07/20/2010 23:13:47,JMB0308,PC-0814,Connect,,,r4.2-1-JMB0308
+http,{J9O8-X3LJ03AK-7596QOND},07/20/2010 23:14:05,JMB0308,PC-0814,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,restricted middle-east spy surveillance blackmail sabatoge bait forgery top-secret bait report surveillance clandestine spy sabatoge restricted china top-secret sabatoge surveillance handler distort spy forgery isreal distort spy lie evade covert lie currency lie spy russia middle-east covert currency confidential isreal restricted surveillance distort china aisa europe report forgery europe bait lie,r4.2-1-JMB0308
+device,{E8S3-Y4CH89UM-3550EAUP},07/20/2010 23:14:45,JMB0308,PC-0814,Disconnect,,,r4.2-1-JMB0308
+logon,{H1P6-D4LP76RF-9468RAWH},07/21/2010 01:46:49,JMB0308,PC-0814,Logoff,,,r4.2-1-JMB0308
+logon,{D6J8-H0UM76OJ-0207DGLO},01/19/2011 20:25:05,JRG0207,PC-8908,Logon,,,r4.2-1-JRG0207
+device,{N2O4-G7HI44NS-5001XHSC},01/19/2011 21:24:15,JRG0207,PC-8908,Connect,,,r4.2-1-JRG0207
+http,{Z7A0-J6YB21YH-4261AKSD},01/19/2011 21:28:50,JRG0207,PC-8908,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,currency conspiracy deceit sabatoge lie russia top-secret evade china aisa handler evade russia bait chronicle restricted evade blackmail top-secret surveillance clandestine evade distort surveillance top-secret clandestine middle-east forgery restricted conspiracy evade sabatoge bait handler bait conspiracy covert top-secret conspiracy lie middle-east clandestine currency bait subterfuge,r4.2-1-JRG0207
+device,{T9W0-Z4JB41NN-5702IHDD},01/19/2011 21:32:02,JRG0207,PC-8908,Disconnect,,,r4.2-1-JRG0207
+logon,{S0I5-Q9OB50AC-7612YFNY},01/20/2011 06:14:40,JRG0207,PC-8908,Logoff,,,r4.2-1-JRG0207
+logon,{G0F6-A1GK91KA-9287XLVR},01/25/2011 17:12:18,JRG0207,PC-8908,Logon,,,r4.2-1-JRG0207
+device,{V5Z3-H5HL12SC-3587NITF},01/25/2011 23:21:05,JRG0207,PC-8908,Connect,,,r4.2-1-JRG0207
+http,{C1L5-A4XN74FN-5657KDNY},01/25/2011 23:24:00,JRG0207,PC-8908,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,forgery surveillance conspiracy deceit conspiracy currency evade deceit russia forgery middle-east russia lie aisa bait china china confidential clandestine report distort isreal confidential covert russia clandestine top-secret russia confidential restricted restricted confidential surveillance surveillance lie report 2010 russia distort confidential lie isreal russia europe,r4.2-1-JRG0207
+device,{G4K7-O7UQ01HR-4735PTVB},01/25/2011 23:28:33,JRG0207,PC-8908,Disconnect,,,r4.2-1-JRG0207
+logon,{B7M3-N8KN76GE-2590RYCW},01/26/2011 02:38:27,JRG0207,PC-8908,Logoff,,,r4.2-1-JRG0207
+logon,{T6R4-H6SB63YB-7042KVJH},02/12/2011 07:11:50,KLH0596,PC-0132,Logon,,,r4.2-1-KLH0596
+device,{G2D7-R2UU49RW-4041FAHB},02/12/2011 07:28:27,KLH0596,PC-0132,Connect,,,r4.2-1-KLH0596
+http,{S0C1-K0AL45SL-7608RIKZ},02/12/2011 07:30:35,KLH0596,PC-0132,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,chronicle top-secret sabatoge conspiracy surveillance chronicle confidential blackmail overthrow distort sabatoge currency top-secret lie top-secret europe russia restricted spy deceit restricted middle-east middle-east handler report forgery aisa blackmail conspiracy distort overthrow china russia overthrow middle-east russia spy europe spy 2010 sabatoge china spy 2010 deceit spy,r4.2-1-KLH0596
+device,{N4U2-W0AL34AO-7337DVFI},02/12/2011 07:30:43,KLH0596,PC-0132,Disconnect,,,r4.2-1-KLH0596
+logon,{Q5P3-D4XO41MY-0282RLMF},02/12/2011 07:33:24,KLH0596,PC-0132,Logoff,,,r4.2-1-KLH0596
+logon,{K2C5-K6YI50GT-1371QZLE},07/07/2010 20:05:29,KPC0073,PC-2638,Logon,,,r4.2-1-KPC0073
+device,{T2M7-A7JT30UE-6367FJQS},07/07/2010 21:10:56,KPC0073,PC-2638,Connect,,,r4.2-1-KPC0073
+http,{V5V4-C3DV47MX-3398TRIJ},07/07/2010 21:23:40,KPC0073,PC-2638,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,spy lie surveillance 2010 isreal middle-east middle-east middle-east top-secret middle-east currency distort deceit handler top-secret sabatoge china restricted chronicle bait clandestine isreal middle-east forgery sabatoge handler spy aisa aisa middle-east covert deceit surveillance distort china bait lie russia confidential covert,r4.2-1-KPC0073
+device,{P7V9-U1VX15HN-7207FQBK},07/07/2010 21:23:42,KPC0073,PC-2638,Disconnect,,,r4.2-1-KPC0073
+logon,{J4X7-D6RD62QM-6697KRWD},07/07/2010 22:51:40,KPC0073,PC-2638,Logoff,,,r4.2-1-KPC0073
+logon,{R2Q3-V3JH44DD-5869ULPV},07/12/2010 23:49:44,KPC0073,PC-2638,Logon,,,r4.2-1-KPC0073
+device,{U7T0-O8QD65KR-1010LHRS},07/12/2010 23:51:36,KPC0073,PC-2638,Connect,,,r4.2-1-KPC0073
+device,{H2E0-R8RC16ZH-8331SUDH},07/12/2010 23:51:36,KPC0073,PC-2638,Disconnect,,,r4.2-1-KPC0073
+http,{Z2B5-I3KZ78OC-6966NSDK},07/12/2010 23:51:36,KPC0073,PC-2638,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,handler conspiracy forgery handler currency isreal report deceit covert covert 2010 overthrow russia spy covert spy handler aisa conspiracy isreal distort forgery blackmail spy middle-east top-secret subterfuge surveillance conspiracy restricted europe restricted middle-east spy forgery clandestine subterfuge chronicle europe confidential middle-east europe clandestine deceit blackmail bait distort clandestine bait isreal covert 2010 sabatoge evade blackmail forgery deceit lie restricted surveillance confidential top-secret,r4.2-1-KPC0073
+logon,{I2L5-U3VJ82HD-7067JPXQ},07/13/2010 06:35:09,KPC0073,PC-2638,Logoff,,,r4.2-1-KPC0073
+logon,{Q2R9-A8CE80YX-0084GOAS},07/15/2010 02:17:14,KPC0073,PC-2638,Logon,,,r4.2-1-KPC0073
+device,{D6N5-N3XW54HL-7758DTFN},07/15/2010 02:38:24,KPC0073,PC-2638,Connect,,,r4.2-1-KPC0073
+http,{T0E8-G3WN43NU-2878UPZO},07/15/2010 02:40:20,KPC0073,PC-2638,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,isreal distort sabatoge confidential spy 2010 surveillance aisa lie lie 2010 top-secret lie evade spy sabatoge russia middle-east russia top-secret spy blackmail spy middle-east china restricted middle-east surveillance spy china china china 2010 subterfuge europe middle-east lie middle-east restricted 2010 forgery blackmail surveillance china clandestine lie chronicle clandestine clandestine lie china clandestine europe clandestine bait distort restricted deceit overthrow restricted distort middle-east russia,r4.2-1-KPC0073
+device,{K2L7-K9QG67IK-7622YKJJ},07/15/2010 02:42:53,KPC0073,PC-2638,Disconnect,,,r4.2-1-KPC0073
+logon,{X3I6-R9WY13YY-6336KYMV},07/15/2010 03:08:16,KPC0073,PC-2638,Logoff,,,r4.2-1-KPC0073
+logon,{X2J9-P5IW91SU-2386TZCY},07/31/2010 07:43:15,LJR0523,PC-5162,Logon,,,r4.2-1-LJR0523
+device,{W8B5-G1IX11XF-1008EDLD},07/31/2010 07:45:34,LJR0523,PC-5162,Connect,,,r4.2-1-LJR0523
+http,{R5A8-J8WR35EK-1128ZEAQ},07/31/2010 07:45:56,LJR0523,PC-5162,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,surveillance isreal lie bait sabatoge lie restricted sabatoge evade surveillance isreal russia distort forgery china restricted distort handler middle-east sabatoge forgery surveillance evade bait surveillance isreal china,r4.2-1-LJR0523
+device,{M1Z1-K8YT10UW-5659ODDV},07/31/2010 07:45:59,LJR0523,PC-5162,Disconnect,,,r4.2-1-LJR0523
+logon,{P9U7-B6UO88VI-9864PLIR},07/31/2010 07:52:04,LJR0523,PC-5162,Logoff,,,r4.2-1-LJR0523
+logon,{T3X2-N3MJ74AE-2438SPKR},08/05/2010 03:27:36,LJR0523,PC-5162,Logon,,,r4.2-1-LJR0523
+device,{E1L4-X0OE22AE-4919XBYJ},08/05/2010 05:43:17,LJR0523,PC-5162,Connect,,,r4.2-1-LJR0523
+http,{R9N8-L4SE42UK-6652EEOC},08/05/2010 05:46:54,LJR0523,PC-5162,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,bait bait sabatoge isreal report russia isreal top-secret spy chronicle bait russia surveillance lie lie subterfuge deceit conspiracy deceit currency middle-east bait sabatoge evade deceit clandestine bait report top-secret surveillance china report currency spy spy lie europe middle-east,r4.2-1-LJR0523
+device,{W6P1-C6XL61TE-8055KETW},08/05/2010 05:50:36,LJR0523,PC-5162,Disconnect,,,r4.2-1-LJR0523
+logon,{X4T7-B2TU86PR-3860GWAB},08/05/2010 06:02:16,LJR0523,PC-5162,Logoff,,,r4.2-1-LJR0523
+logon,{W0H1-L0DJ79YU-4815WLTT},08/07/2010 02:50:35,LJR0523,PC-5162,Logon,,,r4.2-1-LJR0523
+device,{Q4H2-T7VR79KZ-4767GLSD},08/07/2010 03:30:11,LJR0523,PC-5162,Connect,,,r4.2-1-LJR0523
+http,{I6W5-L0TM83KS-1073HQBO},08/07/2010 04:30:22,LJR0523,PC-5162,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,distort spy conspiracy bait top-secret distort middle-east lie report confidential middle-east handler surveillance europe overthrow isreal evade confidential deceit surveillance middle-east surveillance restricted surveillance clandestine russia middle-east forgery bait forgery confidential spy covert top-secret top-secret deceit lie lie overthrow blackmail deceit,r4.2-1-LJR0523
+device,{X6B5-F0CR82VC-0981BWXQ},08/07/2010 05:08:18,LJR0523,PC-5162,Disconnect,,,r4.2-1-LJR0523
+logon,{D4T4-A6XX85ZY-5592EYNE},08/07/2010 06:35:28,LJR0523,PC-5162,Logoff,,,r4.2-1-LJR0523
+logon,{Y3Y9-S7ZP67MK-7872GFGQ},08/11/2010 02:52:38,LJR0523,PC-5162,Logon,,,r4.2-1-LJR0523
+device,{C2Y0-Y1AQ74MN-0498ADOO},08/11/2010 03:17:05,LJR0523,PC-5162,Connect,,,r4.2-1-LJR0523
+http,{N4E9-D8UL89JK-0320EISU},08/11/2010 03:46:18,LJR0523,PC-5162,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,isreal europe china restricted spy clandestine sabatoge currency lie conspiracy middle-east evade deceit china overthrow europe surveillance spy lie covert deceit 2010 handler evade conspiracy distort chronicle handler distort russia,r4.2-1-LJR0523
+device,{J2G3-I4LH90HC-8775BQXI},08/11/2010 04:09:00,LJR0523,PC-5162,Disconnect,,,r4.2-1-LJR0523
+logon,{T6E7-X4GA40VG-1934GFYY},08/11/2010 04:28:49,LJR0523,PC-5162,Logoff,,,r4.2-1-LJR0523
+logon,{Z5M4-A8BU27WY-8474WZRS},09/14/2010 19:46:17,LQC0479,PC-6380,Logon,,,r4.2-1-LQC0479
+device,{X0Q9-R2VQ38SP-9158QDCB},09/14/2010 20:53:56,LQC0479,PC-6380,Connect,,,r4.2-1-LQC0479
+http,{R1W6-X2IE29ZR-2086DRMD},09/14/2010 21:01:02,LQC0479,PC-6380,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,chronicle lie forgery spy chronicle clandestine covert lie blackmail middle-east russia currency middle-east clandestine sabatoge clandestine evade distort conspiracy currency russia deceit distort handler covert conspiracy middle-east 2010 europe spy lie currency middle-east restricted blackmail evade clandestine aisa top-secret isreal surveillance,r4.2-1-LQC0479
+device,{B6L9-E7TV98FE-9615YOYW},09/14/2010 21:17:44,LQC0479,PC-6380,Disconnect,,,r4.2-1-LQC0479
+logon,{C4D4-S7SP39MA-2284CTVP},09/14/2010 21:32:03,LQC0479,PC-6380,Logoff,,,r4.2-1-LQC0479
+logon,{V6A0-Q7VX19FQ-1106VIUO},09/15/2010 23:21:30,LQC0479,PC-6380,Logon,,,r4.2-1-LQC0479
+device,{G2E5-M0EJ99SV-4852YZPJ},09/15/2010 23:34:13,LQC0479,PC-6380,Connect,,,r4.2-1-LQC0479
+http,{M3Y6-L3XV21QB-6949CSRC},09/15/2010 23:38:54,LQC0479,PC-6380,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,2010 deceit overthrow chronicle confidential middle-east confidential distort surveillance aisa clandestine 2010 covert surveillance report handler overthrow top-secret deceit distort sabatoge distort china restricted europe covert surveillance surveillance covert aisa forgery middle-east covert top-secret isreal evade handler currency top-secret,r4.2-1-LQC0479
+device,{E3R5-G2OM76JL-9598OXZN},09/15/2010 23:41:49,LQC0479,PC-6380,Disconnect,,,r4.2-1-LQC0479
+logon,{M6R3-L2LU37PZ-6987DIXW},09/15/2010 23:50:29,LQC0479,PC-6380,Logoff,,,r4.2-1-LQC0479
+logon,{P8S1-P1MZ43UH-2054NLNN},09/21/2010 20:08:58,LQC0479,PC-6380,Logon,,,r4.2-1-LQC0479
+device,{J6Y0-G5WO07PN-2919UBWP},09/21/2010 23:01:14,LQC0479,PC-6380,Connect,,,r4.2-1-LQC0479
+http,{Q6H9-U2RF38QO-9925ACQQ},09/21/2010 23:01:24,LQC0479,PC-6380,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,restricted sabatoge middle-east confidential top-secret currency currency forgery aisa clandestine restricted chronicle china 2010 middle-east chronicle isreal subterfuge middle-east restricted currency top-secret china distort blackmail report restricted clandestine top-secret lie forgery spy,r4.2-1-LQC0479
+device,{H3J5-S5RY45TS-3488EPGZ},09/21/2010 23:01:27,LQC0479,PC-6380,Disconnect,,,r4.2-1-LQC0479
+logon,{T4Y6-U9LZ30OE-5657JTGY},09/22/2010 01:08:02,LQC0479,PC-6380,Logoff,,,r4.2-1-LQC0479
+logon,{W7R2-J2OV82KT-8722JOBM},02/08/2011 05:55:53,MAR0955,PC-6793,Logon,,,r4.2-1-MAR0955
+device,{M0G1-H8KI01SO-6191NZOD},02/08/2011 05:57:58,MAR0955,PC-6793,Connect,,,r4.2-1-MAR0955
+http,{G2Z4-X8HH53WZ-0286NXWS},02/08/2011 05:59:18,MAR0955,PC-6793,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,currency spy sabatoge subterfuge confidential blackmail covert middle-east top-secret spy restricted 2010 report evade restricted sabatoge confidential bait middle-east europe distort subterfuge report deceit currency sabatoge spy evade confidential middle-east middle-east evade isreal top-secret evade isreal clandestine china forgery surveillance conspiracy forgery currency handler middle-east covert middle-east blackmail report currency isreal overthrow bait forgery lie,r4.2-1-MAR0955
+device,{I1M1-G0FC29JQ-4144IAZN},02/08/2011 06:00:31,MAR0955,PC-6793,Disconnect,,,r4.2-1-MAR0955
+logon,{S7K9-G9AP28HN-1964QVZB},02/08/2011 06:01:50,MAR0955,PC-6793,Logoff,,,r4.2-1-MAR0955
+logon,{B8I3-O6UF77JB-4746YDLF},02/09/2011 02:40:01,MAR0955,PC-6793,Logon,,,r4.2-1-MAR0955
+device,{S9I0-G2CB55MT-6207GTQG},02/09/2011 02:50:46,MAR0955,PC-6793,Connect,,,r4.2-1-MAR0955
+http,{B5P8-Z0MQ62FH-5273YDCQ},02/09/2011 02:50:48,MAR0955,PC-6793,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,overthrow blackmail report spy currency lie middle-east deceit china confidential currency deceit isreal subterfuge surveillance aisa subterfuge bait sabatoge evade overthrow sabatoge china currency report europe currency spy sabatoge blackmail spy russia top-secret deceit surveillance evade aisa russia top-secret chronicle russia report middle-east bait middle-east overthrow subterfuge sabatoge subterfuge evade lie,r4.2-1-MAR0955
+device,{V6V5-O2ST82KF-0038GIWI},02/09/2011 02:50:51,MAR0955,PC-6793,Disconnect,,,r4.2-1-MAR0955
+logon,{E8A7-B3RT27TA-6504AXMH},02/09/2011 02:52:07,MAR0955,PC-6793,Logoff,,,r4.2-1-MAR0955
+logon,{Q8M4-U6ZZ42LU-3074HGGL},02/11/2011 06:02:36,MAR0955,PC-6793,Logon,,,r4.2-1-MAR0955
+device,{H4B9-P2IQ19GQ-9798MRRP},02/11/2011 06:14:18,MAR0955,PC-6793,Connect,,,r4.2-1-MAR0955
+http,{A5D7-N6YI49XU-1678ZEBP},02/11/2011 06:14:33,MAR0955,PC-6793,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,middle-east forgery top-secret conspiracy top-secret overthrow conspiracy surveillance confidential restricted 2010 middle-east middle-east forgery middle-east 2010 overthrow top-secret lie distort covert conspiracy middle-east handler china overthrow chronicle restricted covert surveillance restricted blackmail spy surveillance clandestine subterfuge currency clandestine bait middle-east europe sabatoge bait clandestine surveillance covert currency blackmail subterfuge currency confidential europe sabatoge 2010 distort middle-east covert,r4.2-1-MAR0955
+device,{J0L2-M3OR50UY-0060PVHD},02/11/2011 06:20:13,MAR0955,PC-6793,Disconnect,,,r4.2-1-MAR0955
+logon,{Y0M1-N7EE90KJ-9800UTDS},02/11/2011 06:29:08,MAR0955,PC-6793,Logoff,,,r4.2-1-MAR0955
+logon,{O0Y0-V4DV47TI-7241GLXH},09/29/2010 01:39:20,MAS0025,PC-2512,Logon,,,r4.2-1-MAS0025
+device,{N2U9-P4ME35CV-6148TZIQ},09/29/2010 01:41:20,MAS0025,PC-2512,Connect,,,r4.2-1-MAS0025
+http,{Z8U9-D5BA39EC-4354LEJU},09/29/2010 02:48:48,MAS0025,PC-2512,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,chronicle conspiracy subterfuge top-secret evade covert report blackmail conspiracy confidential overthrow restricted surveillance forgery covert spy europe surveillance top-secret surveillance 2010 overthrow handler overthrow surveillance top-secret covert middle-east china currency distort spy overthrow aisa subterfuge europe europe currency restricted overthrow clandestine sabatoge evade covert china covert lie lie spy evade surveillance confidential,r4.2-1-MAS0025
+device,{N1O5-D9IS63MQ-0745RATO},09/29/2010 03:12:18,MAS0025,PC-2512,Disconnect,,,r4.2-1-MAS0025
+logon,{X3R0-I5QT64EK-1500QNRV},09/29/2010 05:11:49,MAS0025,PC-2512,Logoff,,,r4.2-1-MAS0025
+logon,{V2R0-G2LB82GW-4705KFJV},09/30/2010 22:31:47,MAS0025,PC-2512,Logon,,,r4.2-1-MAS0025
+device,{F5T9-Q0RR03ZS-5396ORQP},09/30/2010 22:32:21,MAS0025,PC-2512,Connect,,,r4.2-1-MAS0025
+http,{Q4Y2-R5CV62IZ-7239BOHX},09/30/2010 22:34:03,MAS0025,PC-2512,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,lie lie deceit forgery surveillance subterfuge overthrow restricted subterfuge blackmail covert chronicle lie lie russia russia surveillance surveillance bait 2010 chronicle isreal evade currency isreal forgery isreal clandestine clandestine report isreal covert lie evade lie conspiracy covert lie top-secret restricted lie restricted bait sabatoge bait isreal conspiracy 2010 isreal middle-east overthrow chronicle lie aisa covert overthrow blackmail covert handler top-secret,r4.2-1-MAS0025
+device,{C7A0-P6FE48FJ-3725GBIZ},09/30/2010 22:34:50,MAS0025,PC-2512,Disconnect,,,r4.2-1-MAS0025
+logon,{Y5H3-F6KZ48ZD-7850QZPM},09/30/2010 22:39:20,MAS0025,PC-2512,Logoff,,,r4.2-1-MAS0025
+logon,{U7L9-T8CT84CW-7913EGCJ},09/20/2010 23:52:19,MCF0600,PC-8790,Logon,,,r4.2-1-MCF0600
+device,{M7Z2-C5JP08AI-9919DWZS},09/20/2010 23:54:51,MCF0600,PC-8790,Connect,,,r4.2-1-MCF0600
+http,{B1O0-N9CM49AF-3999ZSHA},09/20/2010 23:55:20,MCF0600,PC-8790,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,restricted report lie covert middle-east top-secret restricted sabatoge restricted russia spy china middle-east surveillance distort subterfuge isreal lie distort top-secret chronicle 2010 restricted subterfuge overthrow currency covert forgery lie middle-east evade evade sabatoge overthrow isreal lie clandestine clandestine restricted 2010 deceit lie clandestine currency,r4.2-1-MCF0600
+device,{J7K0-T4YD55IA-3649YYIY},09/20/2010 23:56:43,MCF0600,PC-8790,Disconnect,,,r4.2-1-MCF0600
+logon,{G9E0-F2PT31XK-0858DQRB},09/21/2010 03:18:30,MCF0600,PC-8790,Logoff,,,r4.2-1-MCF0600
+logon,{G2K3-H2ED04VB-0486AVIV},09/22/2010 00:16:27,MCF0600,PC-8790,Logon,,,r4.2-1-MCF0600
+device,{N6Q1-O9BW49JS-3905TLRC},09/22/2010 03:09:40,MCF0600,PC-8790,Connect,,,r4.2-1-MCF0600
+http,{Z3N5-H3UD08SG-4585PKSE},09/22/2010 04:13:20,MCF0600,PC-8790,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,europe distort currency restricted evade covert forgery currency surveillance aisa top-secret russia evade restricted clandestine spy sabatoge conspiracy sabatoge middle-east report spy spy sabatoge forgery overthrow lie lie clandestine report isreal bait overthrow europe distort aisa top-secret 2010 evade middle-east surveillance isreal russia report overthrow covert report top-secret,r4.2-1-MCF0600
+device,{L3T0-M7OL92WH-6597QPFY},09/22/2010 04:26:52,MCF0600,PC-8790,Disconnect,,,r4.2-1-MCF0600
+logon,{M0U1-P5VN82JV-9070OZFG},09/22/2010 05:07:21,MCF0600,PC-8790,Logoff,,,r4.2-1-MCF0600
+logon,{O8V3-V4AF70JX-6834ZHTH},09/23/2010 00:10:47,MCF0600,PC-8790,Logon,,,r4.2-1-MCF0600
+device,{K3Q1-J4TG48IE-0779FWPH},09/23/2010 00:45:10,MCF0600,PC-8790,Connect,,,r4.2-1-MCF0600
+http,{P7Z7-V1IN84OR-5109IJWU},09/23/2010 01:36:54,MCF0600,PC-8790,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,blackmail restricted currency spy 2010 evade evade clandestine bait sabatoge blackmail confidential confidential bait evade subterfuge surveillance restricted overthrow evade forgery deceit top-secret forgery spy blackmail forgery isreal report top-secret 2010 deceit forgery distort subterfuge report isreal forgery top-secret restricted middle-east spy overthrow clandestine 2010 china subterfuge evade top-secret evade blackmail top-secret surveillance top-secret report confidential surveillance middle-east bait blackmail covert forgery,r4.2-1-MCF0600
+device,{N8C7-M6EI31JB-1453SWOT},09/23/2010 01:53:09,MCF0600,PC-8790,Disconnect,,,r4.2-1-MCF0600
+logon,{X0K1-G4UB03SF-8924DTNH},09/23/2010 02:00:46,MCF0600,PC-8790,Logoff,,,r4.2-1-MCF0600
+logon,{U7T6-S1OK45TH-7991HXBL},12/13/2010 20:30:07,MYD0978,PC-3401,Logon,,,r4.2-1-MYD0978
+device,{O2W9-Z0NI33WY-2191NGSB},12/13/2010 21:29:28,MYD0978,PC-3401,Connect,,,r4.2-1-MYD0978
+http,{M4M6-R5UR00FF-3309UUMD},12/13/2010 21:31:02,MYD0978,PC-3401,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,sabatoge middle-east spy report bait surveillance 2010 surveillance blackmail middle-east surveillance 2010 subterfuge evade forgery lie russia isreal conspiracy chronicle russia confidential clandestine chronicle clandestine middle-east evade covert currency surveillance distort currency top-secret restricted evade sabatoge europe restricted top-secret spy clandestine sabatoge restricted sabatoge covert surveillance restricted sabatoge restricted spy sabatoge bait middle-east europe china report clandestine bait distort conspiracy spy covert distort middle-east spy china report overthrow surveillance bait chronicle evade,r4.2-1-MYD0978
+device,{L1P0-S1DK89JV-9489LRWJ},12/13/2010 21:32:27,MYD0978,PC-3401,Disconnect,,,r4.2-1-MYD0978
+logon,{C8Q5-U0BD24SE-3493IXCD},12/14/2010 06:42:27,MYD0978,PC-3401,Logoff,,,r4.2-1-MYD0978
+logon,{V6A4-W7DI71EG-7163QZOS},12/15/2010 02:57:50,MYD0978,PC-3401,Logon,,,r4.2-1-MYD0978
+device,{A6O6-N7FR05QM-3820PLTG},12/15/2010 06:29:28,MYD0978,PC-3401,Connect,,,r4.2-1-MYD0978
+http,{Q2Q2-W5CH40TI-3315PNUB},12/15/2010 06:32:00,MYD0978,PC-3401,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,overthrow confidential chronicle evade 2010 conspiracy report conspiracy top-secret lie evade distort isreal covert confidential chronicle forgery spy evade confidential aisa deceit 2010 aisa restricted currency lie covert evade conspiracy lie deceit aisa blackmail overthrow subterfuge subterfuge spy surveillance lie middle-east evade currency evade forgery conspiracy spy deceit restricted evade handler forgery sabatoge top-secret,r4.2-1-MYD0978
+device,{W0K1-G6FQ87LF-5631TWDR},12/15/2010 06:33:08,MYD0978,PC-3401,Disconnect,,,r4.2-1-MYD0978
+logon,{W7X8-R3ML78KD-3716UWCJ},12/15/2010 06:35:56,MYD0978,PC-3401,Logoff,,,r4.2-1-MYD0978
+logon,{Y3N8-D7FS11QZ-2998XUVC},12/18/2010 06:44:49,MYD0978,PC-3401,Logon,,,r4.2-1-MYD0978
+device,{F0A8-E9HP86BQ-6018KBAG},12/18/2010 06:58:54,MYD0978,PC-3401,Connect,,,r4.2-1-MYD0978
+http,{G8X3-K7XE93SO-8701EIXN},12/18/2010 06:59:08,MYD0978,PC-3401,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,surveillance subterfuge bait aisa currency isreal currency covert top-secret distort covert spy evade overthrow clandestine evade spy europe isreal spy surveillance middle-east middle-east top-secret europe spy deceit lie clandestine deceit china evade lie middle-east covert distort surveillance forgery blackmail russia lie,r4.2-1-MYD0978
+device,{U9N1-L3HU21BS-5466CAIN},12/18/2010 07:00:32,MYD0978,PC-3401,Disconnect,,,r4.2-1-MYD0978
+logon,{M6X3-C6BK25SO-9339TTNX},12/18/2010 07:02:34,MYD0978,PC-3401,Logoff,,,r4.2-1-MYD0978
+logon,{B6I5-M1JG28QH-1228TOAT},02/09/2011 03:00:27,PPF0435,PC-1809,Logon,,,r4.2-1-PPF0435
+device,{W1Y4-R1FU04XY-7904VHSY},02/09/2011 05:01:12,PPF0435,PC-1809,Connect,,,r4.2-1-PPF0435
+http,{C2W1-N3IB87IO-6738SJPV},02/09/2011 06:09:13,PPF0435,PC-1809,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,restricted chronicle middle-east confidential forgery subterfuge report bait aisa deceit top-secret aisa russia bait europe distort overthrow evade spy currency report report lie covert chronicle isreal lie europe conspiracy forgery confidential russia clandestine europe aisa forgery subterfuge confidential bait middle-east middle-east currency currency top-secret surveillance conspiracy lie bait deceit evade,r4.2-1-PPF0435
+device,{N2Q4-Y1EB26SL-5664ZEQX},02/09/2011 06:42:28,PPF0435,PC-1809,Disconnect,,,r4.2-1-PPF0435
+logon,{S9Q6-I5KK71JG-7537IUBB},02/09/2011 06:46:27,PPF0435,PC-1809,Logoff,,,r4.2-1-PPF0435
+logon,{F2O1-E8QN28MA-7245ETPY},09/13/2010 23:18:53,RAB0589,PC-1609,Logon,,,r4.2-1-RAB0589
+device,{Z5V3-N3DD85OW-7613DBVV},09/13/2010 23:27:48,RAB0589,PC-1609,Connect,,,r4.2-1-RAB0589
+http,{T2V5-Q5FW35ND-8524HHKM},09/13/2010 23:31:01,RAB0589,PC-1609,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,deceit restricted europe middle-east lie evade covert isreal surveillance clandestine covert covert russia europe clandestine spy confidential distort spy isreal covert blackmail report deceit lie distort surveillance isreal isreal lie china currency lie evade overthrow middle-east subterfuge report currency isreal middle-east deceit russia covert blackmail 2010 forgery isreal overthrow covert evade,r4.2-1-RAB0589
+device,{O8H5-I2CM19SB-6708ILHC},09/13/2010 23:31:37,RAB0589,PC-1609,Disconnect,,,r4.2-1-RAB0589
+logon,{J2B1-Y8AG30SF-9650TCQT},09/14/2010 00:01:40,RAB0589,PC-1609,Logoff,,,r4.2-1-RAB0589
+logon,{W3E2-J8KY78BT-6509KHNN},09/23/2010 06:58:05,RAB0589,PC-1609,Logon,,,r4.2-1-RAB0589
+device,{H8Z5-K2PP55TX-5693LNAP},09/23/2010 07:26:35,RAB0589,PC-1609,Connect,,,r4.2-1-RAB0589
+http,{J5U6-Y1NG51RT-8591NJNF},09/23/2010 07:26:42,RAB0589,PC-1609,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,spy evade aisa isreal covert report conspiracy middle-east aisa surveillance spy bait covert overthrow report 2010 spy deceit report covert surveillance isreal currency china isreal distort surveillance isreal conspiracy distort chronicle sabatoge forgery china chronicle spy currency russia currency isreal bait china spy covert report sabatoge middle-east surveillance lie clandestine lie restricted currency report currency surveillance,r4.2-1-RAB0589
+device,{J1Q8-P4HU85VV-4089RBGP},09/23/2010 07:27:07,RAB0589,PC-1609,Disconnect,,,r4.2-1-RAB0589
+logon,{E0H2-N6ZH02NC-6390SUWX},09/23/2010 07:30:03,RAB0589,PC-1609,Logoff,,,r4.2-1-RAB0589
+logon,{T7V6-Y1QU17PT-4786GCFW},10/20/2010 20:12:23,RGG0064,PC-8859,Logon,,,r4.2-1-RGG0064
+device,{O4N7-P1SO56KN-6119RAEM},10/20/2010 21:59:42,RGG0064,PC-8859,Connect,,,r4.2-1-RGG0064
+http,{D8S6-X5GK13PM-1379TDER},10/20/2010 22:09:37,RGG0064,PC-8859,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,middle-east china surveillance overthrow evade forgery surveillance restricted surveillance overthrow bait bait top-secret top-secret russia confidential handler conspiracy isreal forgery isreal sabatoge subterfuge covert sabatoge overthrow surveillance spy clandestine handler surveillance overthrow isreal top-secret evade restricted evade blackmail aisa middle-east middle-east distort confidential middle-east report currency evade europe spy clandestine russia bait handler distort isreal middle-east evade,r4.2-1-RGG0064
+device,{F5O3-E2RA27CK-4319AJPQ},10/20/2010 22:12:01,RGG0064,PC-8859,Disconnect,,,r4.2-1-RGG0064
+logon,{V6H6-G2BR66JU-3383FVWQ},10/20/2010 23:58:54,RGG0064,PC-8859,Logoff,,,r4.2-1-RGG0064
+logon,{B4X2-X5IV16IN-9623MWLB},10/21/2010 23:59:01,RGG0064,PC-8859,Logon,,,r4.2-1-RGG0064
+device,{V3T3-R9QN53FU-9968VKBX},10/22/2010 02:25:49,RGG0064,PC-8859,Connect,,,r4.2-1-RGG0064
+http,{B7E6-H4LC03KJ-1684JQAG},10/22/2010 02:42:04,RGG0064,PC-8859,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,report surveillance subterfuge spy russia isreal subterfuge isreal covert lie aisa report lie distort russia report russia sabatoge lie restricted currency conspiracy europe currency russia aisa restricted sabatoge conspiracy europe bait middle-east spy lie evade handler covert forgery sabatoge spy covert confidential distort isreal isreal covert lie russia subterfuge forgery chronicle lie confidential,r4.2-1-RGG0064
+device,{Z2G0-E4RT55JF-2849FQQI},10/22/2010 02:55:16,RGG0064,PC-8859,Disconnect,,,r4.2-1-RGG0064
+logon,{B9F8-I2YO74WG-3139DVVF},10/22/2010 03:10:05,RGG0064,PC-8859,Logoff,,,r4.2-1-RGG0064
+logon,{E4T3-J9IH39YQ-7683DXSS},10/27/2010 02:57:17,RGG0064,PC-8859,Logon,,,r4.2-1-RGG0064
+device,{W6V9-N7XN55MP-7751KTYB},10/27/2010 03:00:28,RGG0064,PC-8859,Connect,,,r4.2-1-RGG0064
+http,{R9N1-G3UG22BS-1865PZOH},10/27/2010 03:00:55,RGG0064,PC-8859,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,russia 2010 top-secret aisa isreal restricted overthrow sabatoge covert confidential middle-east lie evade clandestine russia lie blackmail evade blackmail evade currency lie restricted conspiracy covert europe surveillance russia covert subterfuge evade europe evade currency currency russia currency clandestine distort subterfuge 2010 conspiracy isreal currency report overthrow spy middle-east,r4.2-1-RGG0064
+device,{O1K6-T6GG91VQ-8692QZQQ},10/27/2010 03:02:07,RGG0064,PC-8859,Disconnect,,,r4.2-1-RGG0064
+logon,{F2P1-H9GG78JN-3295KXJI},10/27/2010 03:03:52,RGG0064,PC-8859,Logoff,,,r4.2-1-RGG0064
+logon,{O0O5-K8PS89TF-2737TESN},07/13/2010 20:04:53,RKD0604,PC-9379,Logon,,,r4.2-1-RKD0604
+device,{U2A2-K5UV96DW-1786RJHQ},07/13/2010 20:59:18,RKD0604,PC-9379,Connect,,,r4.2-1-RKD0604
+http,{A9S6-H6RM85XL-1447KFQN},07/13/2010 21:05:28,RKD0604,PC-9379,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,evade spy top-secret evade top-secret europe lie chronicle sabatoge confidential report europe bait chronicle report russia sabatoge lie forgery 2010 lie deceit forgery overthrow confidential overthrow chronicle bait top-secret sabatoge sabatoge top-secret spy russia 2010 forgery top-secret report evade bait spy overthrow restricted conspiracy confidential isreal aisa surveillance russia distort spy covert russia overthrow spy china,r4.2-1-RKD0604
+device,{T8X1-F3BF45QK-7019GMQY},07/13/2010 21:08:04,RKD0604,PC-9379,Disconnect,,,r4.2-1-RKD0604
+logon,{J9Z4-Q6JH47TW-3414PSYV},07/14/2010 06:35:35,RKD0604,PC-9379,Logoff,,,r4.2-1-RKD0604
+logon,{T2K5-J1DH07LT-1001DNNJ},07/20/2010 00:59:18,RKD0604,PC-9379,Logon,,,r4.2-1-RKD0604
+device,{Y5P9-T9XZ63DH-2197NQHW},07/20/2010 03:10:32,RKD0604,PC-9379,Connect,,,r4.2-1-RKD0604
+http,{V2A0-K2QI17TY-9117EZXD},07/20/2010 03:18:53,RKD0604,PC-9379,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,surveillance isreal handler top-secret lie lie russia report bait surveillance isreal spy report lie 2010 aisa top-secret distort restricted top-secret top-secret restricted sabatoge surveillance spy clandestine china top-secret europe top-secret evade middle-east report,r4.2-1-RKD0604
+device,{D4X5-E4OR78FJ-7133JDAG},07/20/2010 03:30:30,RKD0604,PC-9379,Disconnect,,,r4.2-1-RKD0604
+logon,{Z7K6-U2FK63XM-6557ANKS},07/20/2010 03:36:55,RKD0604,PC-9379,Logoff,,,r4.2-1-RKD0604
+logon,{A4N8-L7CB53MP-7231EGQV},10/23/2010 02:55:51,TAP0551,PC-7623,Logon,,,r4.2-1-TAP0551
+device,{Y4M9-W9UP04TT-6557WXBK},10/23/2010 04:51:15,TAP0551,PC-7623,Connect,,,r4.2-1-TAP0551
+http,{Z3D8-G6RF94ZE-9439PMNH},10/23/2010 04:53:59,TAP0551,PC-7623,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,europe handler report europe confidential spy lie top-secret report middle-east deceit covert sabatoge spy covert spy china bait isreal top-secret deceit evade clandestine conspiracy conspiracy europe blackmail 2010 lie russia report deceit surveillance chronicle covert deceit forgery covert surveillance restricted confidential covert restricted restricted,r4.2-1-TAP0551
+device,{Z5F2-A0SU30LP-8630HIBI},10/23/2010 05:21:45,TAP0551,PC-7623,Disconnect,,,r4.2-1-TAP0551
+logon,{R0N9-C3CD80RL-4409BWBL},10/23/2010 05:38:42,TAP0551,PC-7623,Logoff,,,r4.2-1-TAP0551
+logon,{O9Z8-S1HT88LD-3619CMWD},10/29/2010 04:38:28,TAP0551,PC-7623,Logon,,,r4.2-1-TAP0551
+device,{W2E6-A2AC28XV-5980VDLA},10/29/2010 05:23:04,TAP0551,PC-7623,Connect,,,r4.2-1-TAP0551
+http,{J5P9-J2SC89BN-4558PHIX},10/29/2010 05:40:23,TAP0551,PC-7623,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,chronicle 2010 spy surveillance lie lie middle-east russia spy currency overthrow blackmail middle-east sabatoge overthrow restricted isreal russia russia forgery spy lie deceit top-secret europe isreal subterfuge conspiracy europe sabatoge currency handler spy russia restricted confidential handler isreal clandestine forgery europe china surveillance deceit distort overthrow clandestine lie sabatoge surveillance aisa lie subterfuge russia isreal report,r4.2-1-TAP0551
+device,{K5E6-B7OE11ZA-6161HSXQ},10/29/2010 05:44:34,TAP0551,PC-7623,Disconnect,,,r4.2-1-TAP0551
+logon,{A9B7-A5IZ97SH-6594DFXT},10/29/2010 05:56:18,TAP0551,PC-7623,Logoff,,,r4.2-1-TAP0551
+logon,{U1Q4-I9PX02PE-8712XJDX},02/24/2011 19:49:41,WDD0366,PC-0155,Logon,,,r4.2-1-WDD0366
+device,{Q6W3-A2AY45RM-4749NTDA},02/24/2011 22:07:28,WDD0366,PC-0155,Connect,,,r4.2-1-WDD0366
+http,{S3I7-R3CN14RD-1922CYQD},02/24/2011 22:29:04,WDD0366,PC-0155,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,chronicle conspiracy currency distort top-secret report restricted report isreal subterfuge restricted report aisa top-secret evade bait confidential surveillance surveillance 2010 handler lie confidential evade top-secret middle-east isreal,r4.2-1-WDD0366
+device,{J3N5-J1IG44ZN-4509ZXOG},02/24/2011 22:31:31,WDD0366,PC-0155,Disconnect,,,r4.2-1-WDD0366
+logon,{V5E4-F1JY53FG-8030MANZ},02/24/2011 23:11:08,WDD0366,PC-0155,Logoff,,,r4.2-1-WDD0366
+logon,{N6Q7-T6VL79UV-1510CSBB},03/02/2011 20:10:30,WDD0366,PC-0155,Logon,,,r4.2-1-WDD0366
+device,{X7H8-O1XF46IF-5776EMQY},03/02/2011 22:24:32,WDD0366,PC-0155,Connect,,,r4.2-1-WDD0366
+http,{Z6T2-D1YN64BI-8241XHUK},03/02/2011 22:33:21,WDD0366,PC-0155,,http://wikileaks.org/Julian_Assange/assange/The_Real_Story_About_DTAA/Gur_Erny_Fgbel_Nobhg_QGNN1528513805.php,isreal russia surveillance restricted aisa china aisa overthrow covert evade covert europe europe russia subterfuge isreal surveillance middle-east forgery forgery spy isreal distort lie evade restricted bait evade lie report spy 2010 deceit covert surveillance clandestine covert restricted covert sabatoge sabatoge restricted china evade restricted europe clandestine lie europe 2010 overthrow confidential confidential bait covert,r4.2-1-WDD0366
+device,{V1J4-H7VU91AP-9237YQMG},03/02/2011 22:36:59,WDD0366,PC-0155,Disconnect,,,r4.2-1-WDD0366
+logon,{M3U0-O3RQ92WT-9268SSXD},03/03/2011 01:01:02,WDD0366,PC-0155,Logoff,,,r4.2-1-WDD0366

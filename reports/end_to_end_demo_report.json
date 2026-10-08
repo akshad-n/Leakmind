@@ -1,0 +1,264 @@
+{
+  "report_title": "LeakMind Phase 11 End-to-End Pipeline Demonstration Report",
+  "timestamp": "2026-10-08 19:18:26 UTC",
+  "scenario_1_insider_alice": {
+    "user_id": "INSIDER_ALICE",
+    "timestamp": "2026-10-08 19:18:26 UTC",
+    "total_events": 5,
+    "evidence_scores": {
+      "behavior_risk": 100.0,
+      "sensitivity_risk": 100.0,
+      "graph_risk": 100.0,
+      "leakage_chain_score": 90.0,
+      "historical_user_risk": 55.0
+    },
+    "sensitivity_level": "CRITICAL",
+    "sensitive_findings_count": 8,
+    "provenance": {
+      "graph_risk": 100.0,
+      "suspicious_paths_count": 5,
+      "attack_paths": [
+        [
+          "INSIDER_ALICE -[:READ_FILE]-> File_Q4_Executive_Compensation_and_SSN.xlsx",
+          "File_Q4_Executive_Compensation_and_SSN.xlsx -[:TRANSFERRED_TO_USB]-> USB_INSIDER_ALICE_DEV"
+        ],
+        [
+          "INSIDER_ALICE -[:READ_FILE]-> File_finance_dump.tar.gz",
+          "File_finance_dump.tar.gz -[:TRANSFERRED_TO_USB]-> USB_INSIDER_ALICE_DEV"
+        ],
+        [
+          "INSIDER_ALICE -[:CONNECTED_USB]-> USB_INSIDER_ALICE_DEV"
+        ],
+        [
+          "INSIDER_ALICE -[:READ_FILE]-> File_Q4_Executive_Compensation_and_SSN.xlsx",
+          "File_Q4_Executive_Compensation_and_SSN.xlsx -[:UPLOADED_TO_CLOUD]-> Cloud_ExternalEgress"
+        ],
+        [
+          "INSIDER_ALICE -[:READ_FILE]-> File_finance_dump.tar.gz",
+          "File_finance_dump.tar.gz -[:UPLOADED_TO_CLOUD]-> Cloud_ExternalEgress"
+        ]
+      ]
+    },
+    "temporal_incident": {
+      "incident_id": "INC-CORR-INSIDER_ALICE",
+      "leakage_chain_score": 90.0,
+      "leakage_path": [
+        "READ_FILE",
+        "CONNECTED_USB",
+        "FILE_COPY_STAGE",
+        "UPLOAD_TO_CLOUD"
+      ]
+    },
+    "final_risk": {
+      "final_risk_score": 97.37,
+      "final_risk_probability": 0.9737,
+      "risk_tier": "CRITICAL",
+      "feature_vector": {
+        "behavior_risk": 100.0,
+        "sensitivity_risk": 100.0,
+        "graph_risk": 100.0,
+        "leakage_chain_score": 90.0,
+        "destination_risk": 75.0,
+        "historical_user_risk": 55.0,
+        "after_hours_activity": 5.0,
+        "usb_activity": 1.0,
+        "new_device": 1.0,
+        "external_destination": 1.0
+      }
+    },
+    "shap_explanation": {
+      "top_positive_risk_factors": [
+        {
+          "feature": "sensitivity_risk",
+          "label": "Sensitive file access",
+          "actual_value": 100.0,
+          "shap_value": 1.3104,
+          "contribution": "high contribution"
+        },
+        {
+          "feature": "leakage_chain_score",
+          "label": "Multi-stage leakage chain",
+          "actual_value": 90.0,
+          "shap_value": 1.2259,
+          "contribution": "high contribution"
+        },
+        {
+          "feature": "graph_risk",
+          "label": "Provenance graph risk",
+          "actual_value": 100.0,
+          "shap_value": 0.7991,
+          "contribution": "high contribution"
+        },
+        {
+          "feature": "historical_user_risk",
+          "label": "Historical activity deviation",
+          "actual_value": 55.0,
+          "shap_value": 0.2917,
+          "contribution": "moderate contribution"
+        },
+        {
+          "feature": "destination_risk",
+          "label": "Destination egress risk",
+          "actual_value": 75.0,
+          "shap_value": 0.0405,
+          "contribution": "low contribution"
+        },
+        {
+          "feature": "after_hours_activity",
+          "label": "After-hours behavior",
+          "actual_value": 5.0,
+          "shap_value": 0.0394,
+          "contribution": "low contribution"
+        }
+      ],
+      "top_negative_risk_factors": [
+        {
+          "feature": "usb_activity",
+          "label": "USB activity",
+          "actual_value": 1.0,
+          "shap_value": -0.0745,
+          "contribution": "low mitigation"
+        },
+        {
+          "feature": "behavior_risk",
+          "label": "Behavioral anomaly risk",
+          "actual_value": 100.0,
+          "shap_value": -0.0426,
+          "contribution": "low mitigation"
+        }
+      ],
+      "formatted_narrative": "Final Risk: 97%\n\nSensitive file access: high contribution\nMulti-stage leakage chain: high contribution\nProvenance graph risk: high contribution\nHistorical activity deviation: moderate contribution\nDestination egress risk: low contribution\nAfter-hours behavior: low contribution"
+    },
+    "policy_decision": {
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "policy_reason": "Risk score (97.4%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    }
+  },
+  "scenario_2_benign_bob": {
+    "user_id": "NORMAL_BOB",
+    "timestamp": "2026-10-08 19:18:26 UTC",
+    "total_events": 3,
+    "evidence_scores": {
+      "behavior_risk": 9.04,
+      "sensitivity_risk": 89.36,
+      "graph_risk": 4.5,
+      "leakage_chain_score": 0.0,
+      "historical_user_risk": 5.0
+    },
+    "sensitivity_level": "CRITICAL",
+    "sensitive_findings_count": 0,
+    "provenance": {
+      "graph_risk": 4.5,
+      "suspicious_paths_count": 0,
+      "attack_paths": []
+    },
+    "temporal_incident": {
+      "incident_id": "INC-CORR-NORMAL_BOB",
+      "leakage_chain_score": 0.0,
+      "leakage_path": []
+    },
+    "final_risk": {
+      "final_risk_score": 23.62,
+      "final_risk_probability": 0.2362,
+      "risk_tier": "LOW",
+      "feature_vector": {
+        "behavior_risk": 9.04,
+        "sensitivity_risk": 89.36,
+        "graph_risk": 4.5,
+        "leakage_chain_score": 0.0,
+        "destination_risk": 0.0,
+        "historical_user_risk": 5.0,
+        "after_hours_activity": 0.0,
+        "usb_activity": 0.0,
+        "new_device": 0.0,
+        "external_destination": 0.0
+      }
+    },
+    "shap_explanation": {
+      "top_positive_risk_factors": [
+        {
+          "feature": "sensitivity_risk",
+          "label": "Sensitive file access",
+          "actual_value": 89.36,
+          "shap_value": 1.4201,
+          "contribution": "high contribution"
+        }
+      ],
+      "top_negative_risk_factors": [
+        {
+          "feature": "leakage_chain_score",
+          "label": "Multi-stage leakage chain",
+          "actual_value": 0.0,
+          "shap_value": -1.252,
+          "contribution": "high mitigation"
+        },
+        {
+          "feature": "graph_risk",
+          "label": "Provenance graph risk",
+          "actual_value": 4.5,
+          "shap_value": -0.6413,
+          "contribution": "high mitigation"
+        },
+        {
+          "feature": "historical_user_risk",
+          "label": "Historical activity deviation",
+          "actual_value": 5.0,
+          "shap_value": -0.4714,
+          "contribution": "moderate mitigation"
+        },
+        {
+          "feature": "behavior_risk",
+          "label": "Behavioral anomaly risk",
+          "actual_value": 9.04,
+          "shap_value": -0.1096,
+          "contribution": "moderate mitigation"
+        },
+        {
+          "feature": "usb_activity",
+          "label": "USB activity",
+          "actual_value": 0.0,
+          "shap_value": -0.0854,
+          "contribution": "low mitigation"
+        },
+        {
+          "feature": "after_hours_activity",
+          "label": "After-hours behavior",
+          "actual_value": 0.0,
+          "shap_value": -0.0405,
+          "contribution": "low mitigation"
+        },
+        {
+          "feature": "destination_risk",
+          "label": "Destination egress risk",
+          "actual_value": 0.0,
+          "shap_value": -0.0154,
+          "contribution": "minimal mitigation"
+        }
+      ],
+      "formatted_narrative": "Final Risk: 24%\n\nSensitive file access: high contribution"
+    },
+    "policy_decision": {
+      "decision": "ALLOW",
+      "policy_rule_triggered": "RULE_LOW_RISK_ALLOW",
+      "policy_reason": "Risk score (23.6%) is below allow threshold (<40.0%). Activity permitted under standard organizational policy."
+    }
+  },
+  "academic_summary": {
+    "pipeline_stages_verified": [
+      "Raw Logs",
+      "Preprocessing",
+      "Feature Engineering",
+      "Behavior AI",
+      "Sensitive Data AI",
+      "Neo4j Provenance Graph",
+      "Temporal Correlation",
+      "XGBoost Risk Fusion",
+      "SHAP Explainability",
+      "Policy Engine"
+    ],
+    "attack_scenario_decision": "BLOCK",
+    "benign_scenario_decision": "ALLOW",
+    "disclaimer": "Thresholds represent initial heuristic boundaries and are not claimed to be optimal."
+  }
+}

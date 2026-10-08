@@ -1,0 +1,20 @@
+{
+  "feature_columns": [
+    "login_frequency",
+    "logoff_count",
+    "after_hours_logon",
+    "unique_pcs",
+    "new_device",
+    "usb_usage",
+    "device_connect_count",
+    "device_disconnect_count",
+    "after_hours_device",
+    "web_activity",
+    "after_hours_activity",
+    "external_destination",
+    "privileged_account",
+    "user_historical_activity",
+    "activity_spike_ratio"
+  ],
+  "count": 15
+}

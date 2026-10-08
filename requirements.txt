@@ -1,0 +1,31 @@
+# =====================================================================
+# LeakMind: An Explainable Multi-Evidence Framework
+# Core Dependencies
+# =====================================================================
+
+# Numerical & Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+openpyxl>=3.1.0
+
+# Machine Learning & Explainability
+xgboost>=2.0.0
+shap>=0.42.0
+
+# Graph & Provenance Analysis
+networkx>=3.0.0
+# neo4j>=5.0.0  # Optional: For Phase 6 DARPA Provenance Graph
+
+# Data Visualization & Dashboard
+matplotlib>=3.7.0
+seaborn>=0.12.0
+streamlit>=1.30.0
+
+# Security & Utilities
+cryptography>=41.0.0
+
+# Development & Research
+jupyter>=1.0.0
+ipykernel>=6.25.0

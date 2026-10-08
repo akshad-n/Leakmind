@@ -1,0 +1,31 @@
+{
+  "model_type": "ContextAwareIsolationForest",
+  "n_estimators": 100,
+  "contamination": 0.05,
+  "random_state": 42,
+  "feature_count": 15,
+  "training_samples": 280753,
+  "context_weights": {
+    "w_temporal_logon": 0.5,
+    "w_temporal_device": 1.2,
+    "w_temporal_activity": 0.3,
+    "w_usb_connect": 0.8,
+    "w_usb_usage": 0.4,
+    "w_destination_ext": 2.0,
+    "w_device_hopping": 0.6,
+    "w_device_new": 0.8,
+    "w_frequency_spike": 0.4,
+    "w_role_privilege": 0.3
+  },
+  "supported_context_dimensions": [
+    "user_historical_behavior",
+    "time_of_activity",
+    "after_hours_behavior",
+    "role",
+    "file_access_pattern_proxy",
+    "device_behavior",
+    "usb_behavior",
+    "destination_behavior",
+    "frequency_changes"
+  ]
+}

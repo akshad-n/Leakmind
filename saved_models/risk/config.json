@@ -1,0 +1,63 @@
+{
+  "engine": "MultiEvidenceRiskFusion",
+  "primary_model": "xgboost",
+  "xgboost_file": "xgboost_model.json",
+  "random_forest_file": "random_forest_model.joblib",
+  "logistic_regression_file": "logistic_regression_model.joblib",
+  "preprocessing_file": "preprocessing.joblib",
+  "feature_columns_file": "feature_columns.json",
+  "feature_count": 10,
+  "training_samples": 105,
+  "test_samples": 35,
+  "timestamp": "2026-10-08 18:45:54 UTC",
+  "model_metrics": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      }
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      }
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      }
+    }
+  }
+}

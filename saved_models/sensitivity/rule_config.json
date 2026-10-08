@@ -1,0 +1,39 @@
+{
+  "patterns_count": 22,
+  "pattern_names": [
+    "private_key",
+    "aws_access_key",
+    "stripe_key",
+    "github_token",
+    "jwt_bearer",
+    "api_key_generic",
+    "password_in_uri",
+    "plaintext_password",
+    "credit_card",
+    "salary_compensation",
+    "tax_id_ein",
+    "iban",
+    "routing_number",
+    "bank_account",
+    "swift_bic",
+    "ssn",
+    "passport",
+    "driver_license",
+    "confidential_marking",
+    "corporate_secret",
+    "email_address",
+    "phone_number"
+  ],
+  "classes": [
+    "CRITICAL",
+    "HIGH",
+    "LOW",
+    "MEDIUM"
+  ],
+  "thresholds": {
+    "CRITICAL": 85.0,
+    "HIGH": 60.0,
+    "MEDIUM": 30.0,
+    "LOW": 0.0
+  }
+}

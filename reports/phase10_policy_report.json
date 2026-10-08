@@ -1,0 +1,206 @@
+{
+  "report_title": "LeakMind Phase 10 Policy Engine Evaluation Report",
+  "timestamp": "2026-10-09 00:34:03 UTC",
+  "active_thresholds": {
+    "allow_threshold": 40.0,
+    "monitor_threshold": 70.0,
+    "alert_threshold": 90.0,
+    "block_threshold": 90.0
+  },
+  "disclaimer": "Notice: Configurable policy thresholds (40, 70, 90) represent initial heuristic baseline governance boundaries and are explicitly NOT claimed to be optimal.",
+  "total_evaluations": 140,
+  "decision_summary": {
+    "ALLOW": 70,
+    "MONITOR": 0,
+    "ALERT / APPROVAL": 1,
+    "BLOCK": 69
+  },
+  "rule_summary": {
+    "RULE_CRITICAL_EGRESS_BLOCK": 40,
+    "RULE_HIGH_RISK_BLOCK": 29,
+    "RULE_ELEVATED_RISK_ALERT_APPROVAL": 1,
+    "RULE_LOW_RISK_ALLOW": 70
+  },
+  "sample_evaluations": [
+    {
+      "user": "AAM0658",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "AJR0932",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "BDV0168",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "BIH0745",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "BLS0678",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "BTL0226",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "CAH0936",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "DCH0843",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "EHB0824",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "EHD0584",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "FMG0527",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "FTM0406",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "GHL0460",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "HJB0742",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "JMB0308",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "JRG0207",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "KLH0596",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "KPC0073",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "LJR0523",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    },
+    {
+      "user": "LQC0479",
+      "risk": 97.9,
+      "sensitivity": "CRITICAL",
+      "destination": "External Cloud",
+      "decision": "BLOCK",
+      "policy_rule_triggered": "RULE_CRITICAL_EGRESS_BLOCK",
+      "reason": "Risk score (97.9%) exceeds critical threshold (>90.0%) with CRITICAL sensitive data directed to External Cloud destination. Immediate blocking and session isolation enforced."
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "timestamp": "2026-10-08 18:45:54 UTC",
+  "feature_inventory": {
+    "behavior_risk": {
+      "origin": "Phase 4 Context-Aware Behavior Risk Engine (Isolation Forest + Context)",
+      "type": "Continuous Score",
+      "range": "[0.0, 100.0]",
+      "exists_in_pipeline": true,
+      "verification_source": "saved_models/behavior/ & src/context_behavior.py"
+    },
+    "sensitivity_risk": {
+      "origin": "Phase 5 Sensitive-Data & PII Detection Module (TF-IDF + Regex)",
+      "type": "Continuous Score",
+      "range": "[0.0, 100.0]",
+      "exists_in_pipeline": true,
+      "verification_source": "saved_models/sensitivity/ & src/sensitivity.py"
+    },
+    "graph_risk": {
+      "origin": "Phase 6 Provenance Knowledge Graph (DARPA TC CDM Traversal - NO GNN)",
+      "type": "Continuous Score",
+      "range": "[0.0, 100.0]",
+      "exists_in_pipeline": true,
+      "verification_source": "saved_models/provenance/ & src/provenance.py"
+    },
+    "leakage_chain_score": {
+      "origin": "Phase 7 Temporal & Graph Correlator (Explainable Multi-Stage Rules)",
+      "type": "Continuous Score",
+      "range": "[0.0, 100.0]",
+      "exists_in_pipeline": true,
+      "verification_source": "saved_models/temporal/ & src/temporal.py"
+    },
+    "destination_risk": {
+      "origin": "Phase 4 Contextual Egress & External Drop Destination Analysis",
+      "type": "Continuous Score",
+      "range": "[0.0, 100.0]",
+      "exists_in_pipeline": true,
+      "verification_source": "CERT Web Egress Telemetry & Untrusted Domains"
+    },
+    "historical_user_risk": {
+      "origin": "Phase 4 User Historical Baseline & Activity Velocity Spikes",
+      "type": "Continuous Score",
+      "range": "[0.0, 100.0]",
+      "exists_in_pipeline": true,
+      "verification_source": "CERT Expanding Baseline Activity & Activity Spike Ratio"
+    },
+    "after_hours_activity": {
+      "origin": "Phase 1 Preprocessing & CERT Telemetry (Logon + USB + Web)",
+      "type": "Integer Count",
+      "range": "[0, inf)",
+      "exists_in_pipeline": true,
+      "verification_source": "cert_context_supervised.csv ['after_hours_activity']"
+    },
+    "usb_activity": {
+      "origin": "Phase 1 Preprocessing & CERT Telemetry (Device Connect/Disconnect)",
+      "type": "Integer Count",
+      "range": "[0, inf)",
+      "exists_in_pipeline": true,
+      "verification_source": "cert_context_supervised.csv ['usb_usage']"
+    },
+    "new_device": {
+      "origin": "Phase 4 Context Engine (First-Time Workstation Access)",
+      "type": "Binary Indicator",
+      "range": "{0, 1}",
+      "exists_in_pipeline": true,
+      "verification_source": "cert_context_supervised.csv ['new_device']"
+    },
+    "external_destination": {
+      "origin": "Phase 4 Context Engine (Cloud Upload / File-Sharing / Leak Site)",
+      "type": "Binary Indicator",
+      "range": "{0, 1}",
+      "exists_in_pipeline": true,
+      "verification_source": "cert_context_supervised.csv ['external_destination']"
+    }
+  },
+  "dataset": {
+    "total_samples": 140,
+    "train_samples": 105,
+    "test_samples": 35,
+    "normal_instances": 70,
+    "insider_instances": 70,
+    "feature_columns": [
+      "behavior_risk",
+      "sensitivity_risk",
+      "graph_risk",
+      "leakage_chain_score",
+      "destination_risk",
+      "historical_user_risk",
+      "after_hours_activity",
+      "usb_activity",
+      "new_device",
+      "external_destination"
+    ]
+  },
+  "model_comparison": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      }
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      }
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      }
+    }
+  },
+  "ablation_study": {
+    "1. Behavior only": {
+      "accuracy": 0.9714,
+      "precision": 0.9444,
+      "recall": 1.0,
+      "f1": 0.9714,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0556,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 17,
+        "fp": 1,
+        "fn": 0,
+        "tp": 17
+      },
+      "feature_count": 5,
+      "features": [
+        "behavior_risk",
+        "after_hours_activity",
+        "usb_activity",
+        "historical_user_risk",
+        "new_device"
+      ]
+    },
+    "2. Behavior + Sensitive Data": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      },
+      "feature_count": 6,
+      "features": [
+        "behavior_risk",
+        "after_hours_activity",
+        "usb_activity",
+        "historical_user_risk",
+        "new_device",
+        "sensitivity_risk"
+      ]
+    },
+    "3. Behavior + Sensitive Data + Provenance": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      },
+      "feature_count": 9,
+      "features": [
+        "behavior_risk",
+        "after_hours_activity",
+        "usb_activity",
+        "historical_user_risk",
+        "new_device",
+        "sensitivity_risk",
+        "graph_risk",
+        "destination_risk",
+        "external_destination"
+      ]
+    },
+    "4. All evidence + Temporal Correlation": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      },
+      "feature_count": 10,
+      "features": [
+        "behavior_risk",
+        "after_hours_activity",
+        "usb_activity",
+        "historical_user_risk",
+        "new_device",
+        "sensitivity_risk",
+        "graph_risk",
+        "destination_risk",
+        "external_destination",
+        "leakage_chain_score"
+      ]
+    },
+    "5. All evidence + XGBoost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "fpr": 0.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tn": 18,
+        "fp": 0,
+        "fn": 0,
+        "tp": 17
+      },
+      "feature_count": 10,
+      "features": [
+        "behavior_risk",
+        "after_hours_activity",
+        "usb_activity",
+        "historical_user_risk",
+        "new_device",
+        "sensitivity_risk",
+        "graph_risk",
+        "destination_risk",
+        "external_destination",
+        "leakage_chain_score"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "feature_columns": [
+    "behavior_risk",
+    "sensitivity_risk",
+    "graph_risk",
+    "leakage_chain_score",
+    "destination_risk",
+    "historical_user_risk",
+    "after_hours_activity",
+    "usb_activity",
+    "new_device",
+    "external_destination"
+  ],
+  "feature_count": 10,
+  "description": "Multi-Evidence Risk Fusion Feature Ordering"
+}

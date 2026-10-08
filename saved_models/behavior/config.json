@@ -1,0 +1,10 @@
+{
+  "model_type": "IsolationForest",
+  "n_estimators": 100,
+  "contamination": 0.05,
+  "random_state": 42,
+  "feature_count": 15,
+  "training_samples": 280753,
+  "phase4_context_aware": true,
+  "timestamp": "2026-10-08 12:38:38 UTC"
+}

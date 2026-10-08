@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-10-08 12:38:38 UTC",
+  "benchmarks": {
+    "standard_benchmark": {
+      "baseline_if": {
+        "name": "Baseline Isolation Forest",
+        "precision": 0.7778,
+        "recall": 0.1,
+        "f1": 0.1772,
+        "roc_auc": 0.743,
+        "pr_auc": 0.7036,
+        "false_positive_rate": 0.0286,
+        "confusion_matrix": {
+          "tn": 68,
+          "fp": 2,
+          "fn": 63,
+          "tp": 7
+        }
+      },
+      "context_aware": {
+        "name": "Context-Aware Behavior Risk",
+        "precision": 0.8333,
+        "recall": 0.5714,
+        "f1": 0.678,
+        "roc_auc": 0.7502,
+        "pr_auc": 0.7929,
+        "false_positive_rate": 0.1143,
+        "confusion_matrix": {
+          "tn": 62,
+          "fp": 8,
+          "fn": 30,
+          "tp": 40
+        }
+      },
+      "delta_f1": 0.5008,
+      "delta_pr_auc": 0.0893
+    },
+    "enriched_context_benchmark": {
+      "baseline_if": {
+        "name": "Baseline Isolation Forest",
+        "precision": 0.878,
+        "recall": 0.5143,
+        "f1": 0.6486,
+        "roc_auc": 0.7316,
+        "pr_auc": 0.6678,
+        "false_positive_rate": 0.0714,
+        "confusion_matrix": {
+          "tn": 65,
+          "fp": 5,
+          "fn": 34,
+          "tp": 36
+        }
+      },
+      "context_aware": {
+        "name": "Context-Aware Behavior Risk",
+        "precision": 0.7843,
+        "recall": 0.5714,
+        "f1": 0.6612,
+        "roc_auc": 0.7063,
+        "pr_auc": 0.7638,
+        "false_positive_rate": 0.1571,
+        "confusion_matrix": {
+          "tn": 59,
+          "fp": 11,
+          "fn": 30,
+          "tp": 40
+        }
+      },
+      "delta_f1": 0.0126,
+      "delta_pr_auc": 0.096
+    }
+  }
+}

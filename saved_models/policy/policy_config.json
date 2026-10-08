@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "name": "LeakMind Policy Engine Configuration",
+  "thresholds": {
+    "allow_threshold": 40.0,
+    "monitor_threshold": 70.0,
+    "alert_threshold": 90.0,
+    "block_threshold": 90.0
+  },
+  "enable_contextual_escalation": true,
+  "disclaimer": "Notice: Configurable policy thresholds (40, 70, 90) represent initial heuristic baseline governance boundaries and are explicitly NOT claimed to be optimal.",
+  "rules": [
+    {
+      "rule_id": "RULE_CRITICAL_EGRESS_BLOCK",
+      "name": "Critical Data Egress Containment",
+      "condition": "risk > 90.0 and sensitivity == 'CRITICAL' and destination is external",
+      "decision": "BLOCK",
+      "priority": 100
+    },
+    {
+      "rule_id": "RULE_AFTER_HOURS_USB_BLOCK",
+      "name": "After-Hours USB Exfiltration Containment",
+      "condition": "is_after_hours and has_usb and risk >= 80.0",
+      "decision": "BLOCK",
+      "priority": 95
+    },
+    {
+      "rule_id": "RULE_HIGH_RISK_BLOCK",
+      "name": "Critical Risk Boundary Violation",
+      "condition": "risk > 90.0",
+      "decision": "BLOCK",
+      "priority": 90
+    },
+    {
+      "rule_id": "RULE_SENSITIVE_EGRESS_APPROVAL",
+      "name": "Sensitive Data Egress Escalation",
+      "condition": "sensitivity in ['HIGH', 'CRITICAL'] and destination is external and risk >= 70.0",
+      "decision": "ALERT / APPROVAL",
+      "priority": 85
+    },
+    {
+      "rule_id": "RULE_ELEVATED_RISK_ALERT_APPROVAL",
+      "name": "Elevated Risk Alert and Approval",
+      "condition": "70.0 <= risk <= 90.0",
+      "decision": "ALERT / APPROVAL",
+      "priority": 80
+    },
+    {
+      "rule_id": "RULE_MODERATE_RISK_MONITOR",
+      "name": "Moderate Risk Behavioral Monitor",
+      "condition": "40.0 <= risk < 70.0",
+      "decision": "MONITOR",
+      "priority": 70
+    },
+    {
+      "rule_id": "RULE_LOW_RISK_ALLOW",
+      "name": "Baseline Permitted Activity",
+      "condition": "risk < 40.0",
+      "decision": "ALLOW",
+      "priority": 60
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "engine": "TemporalLeakageCorrelator",
+  "version": "1.0.0",
+  "use_gnn": false,
+  "windows": {
+    "usb_window_minutes": 10.0,
+    "copy_window_minutes": 15.0,
+    "egress_window_minutes": 75.0,
+    "session_window_minutes": 120.0,
+    "alert_score_threshold": 60.0
+  },
+  "sensitive_keywords": [
+    "classified",
+    "confidential",
+    "confidential_layoffs",
+    "credential",
+    "crown_jewel",
+    "dtaa",
+    "financial",
+    "key",
+    "keys.pem",
+    "layoff",
+    "layoffs",
+    "leak",
+    "password",
+    "payroll",
+    "pii",
+    "private",
+    "restricted",
+    "salaries",
+    "salary",
+    "secret",
+    "tax"
+  ],
+  "untrusted_egress_domains": [
+    "anonfiles.com",
+    "drive.google.com",
+    "dropbox.com",
+    "mega.nz",
+    "onedrive.live.com",
+    "pastebin.com",
+    "wetransfer.com",
+    "wikileaks.org"
+  ],
+  "rules": [
+    {
+      "rule_id": "RULE-FULL-4STAGE-EXFIL",
+      "name": "Full 4-Stage Exfiltration Chain",
+      "description": "Sensitive File Access -> USB Connect (<=10m) -> Copy Activity (<=15m) -> External Upload (<=30m)",
+      "base_score": 95.0,
+      "severity": "CRITICAL",
+      "stages_required": [
+        "ACCESS",
+        "USB_CONNECT",
+        "COPY",
+        "EGRESS"
+      ]
+    },
+    {
+      "rule_id": "RULE-USB-REMOVABLE-EXFIL",
+      "name": "Removable Media Exfiltration Chain",
+      "description": "Sensitive File Access correlated with USB Connect (<=10m) and Direct Transfer/Copy to Removable Device",
+      "base_score": 85.0,
+      "severity": "CRITICAL",
+      "stages_required": [
+        "ACCESS",
+        "USB_CONNECT",
+        "COPY"
+      ]
+    },
+    {
+      "rule_id": "RULE-CLOUD-WEB-EXFIL",
+      "name": "Cloud / Web Exfiltration Chain",
+      "description": "Sensitive File Access followed by Browser/Network Preparation (<=10m) and External Cloud/Web Upload (<=30m)",
+      "base_score": 85.0,
+      "severity": "CRITICAL",
+      "stages_required": [
+        "ACCESS",
+        "CHANNEL_PREP",
+        "EGRESS"
+      ]
+    },
+    {
+      "rule_id": "RULE-CERT-AFTERHOURS-REMOVABLE-WEB",
+      "name": "CERT Insider Exfiltration Pattern (Scenario 1)",
+      "description": "Session Logon (After-Hours) -> Removable Drive Connect -> External Leak Site / HTTP Upload (<=30m)",
+      "base_score": 80.0,
+      "severity": "HIGH",
+      "stages_required": [
+        "AUTH",
+        "USB_CONNECT",
+        "EGRESS"
+      ]
+    },
+    {
+      "rule_id": "RULE-STAGING-RAPID-EGRESS",
+      "name": "Rapid Data Staging and Direct Egress",
+      "description": "Data Staging / Copy Activity followed directly by External Upload (<=30m)",
+      "base_score": 70.0,
+      "severity": "HIGH",
+      "stages_required": [
+        "COPY",
+        "EGRESS"
+      ]
+    }
+  ]
+}

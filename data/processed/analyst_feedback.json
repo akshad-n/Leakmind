@@ -1,0 +1,11 @@
+[
+  {
+    "feedback_id": "FB-0001",
+    "incident_id": "INC-2026-001",
+    "user": "AAM0658",
+    "analyst": "analyst_jane",
+    "verdict": "TRUE_POSITIVE",
+    "notes": "Confirmed malicious intent to exfiltrate proprietary patent.",
+    "timestamp": 1791401946.3936827
+  }
+]

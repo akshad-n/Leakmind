@@ -1,0 +1,34 @@
+{
+    "isolation_forest_features": [
+        "http_activity_count",
+        "after_hours_activity",
+        "total_logon_events",
+        "unique_pcs",
+        "logon_count",
+        "logoff_count",
+        "after_hours_logon",
+        "total_device_events",
+        "device_pcs",
+        "device_connect_count",
+        "device_disconnect_count",
+        "after_hours_device"
+    ],
+    "supervised_features": [
+        "http_activity_count",
+        "after_hours_activity",
+        "logon_count",
+        "logoff_count",
+        "after_hours_logon",
+        "unique_pcs",
+        "device_connect_count",
+        "device_disconnect_count",
+        "total_device_events"
+    ],
+    "supervised_target": "insider_label",
+    "models_available": [
+        "xgboost",
+        "random_forest",
+        "logistic_regression",
+        "isolation_forest"
+    ]
+}

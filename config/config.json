@@ -1,0 +1,77 @@
+{
+  "project_name": "LeakMind",
+  "project_title": "LeakMind: An Explainable Multi-Evidence Framework for Data-Leakage Detection and Policy-Aware Response",
+  "version": "1.0.0",
+  "research": {
+    "primary_question": "Does combining behavioral, sensitive-data, provenance, and temporal evidence improve detection and explanation of multi-stage data-leakage incidents compared with isolated detection approaches?",
+    "targets_note": "Expected targets for evaluation benchmarks, not achieved historical results",
+    "target_detection_performance_range": [0.92, 0.96],
+    "target_relative_f1_improvement_range": [0.05, 0.15],
+    "target_fp_reduction_range": [0.10, 0.30]
+  },
+  "datasets": {
+    "cert": {
+      "name": "CERT Insider Threat Dataset",
+      "enabled": true,
+      "raw_dir": "data/raw/r1/r1",
+      "answers_dir": "data/answers/answers",
+      "processed_dir": "data/processed",
+      "required_files": ["logon.csv", "device.csv", "http.csv"]
+    },
+    "sensitive_data_pii": {
+      "name": "Sensitive Data & PII Dataset",
+      "enabled": true,
+      "raw_dir": "data/raw/pii",
+      "status": "Available"
+    },
+    "darpa_tc": {
+      "name": "DARPA Transparent Computing Provenance Dataset",
+      "enabled": true,
+      "raw_dir": "data/raw/darpa",
+      "status": "Available"
+    }
+  },
+  "model_portability": {
+    "saved_models_root": "saved_models",
+    "behavior_dir": "saved_models/behavior",
+    "sensitivity_dir": "saved_models/sensitivity",
+    "risk_dir": "saved_models/risk",
+    "format_specs": {
+      "isolation_forest": "isolation_forest.joblib",
+      "xgboost": "xgboost_model.json",
+      "preprocessor": "preprocessing.joblib",
+      "feature_columns": "feature_columns.json",
+      "config": "config.json"
+    }
+  },
+  "behavior_ai": {
+    "algorithm": "IsolationForest",
+    "contamination": 0.05,
+    "n_estimators": 100,
+    "random_state": 42
+  },
+  "risk_fusion": {
+    "primary_algorithm": "XGBoost",
+    "baseline_algorithms": ["LogisticRegression", "RandomForest"],
+    "learning_rate": 0.1,
+    "max_depth": 4,
+    "n_estimators": 100,
+    "eval_metric": "logloss",
+    "random_state": 42
+  },
+  "policy_engine": {
+    "thresholds": {
+      "allow_max": 40.0,
+      "monitor_max": 70.0,
+      "alert_max": 90.0,
+      "block_min": 90.0
+    },
+    "configurable": true,
+    "note": "Initial baseline heuristic thresholds subject to validation tuning"
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "logs/leakmind.log",
+    "console": true
+  }
+}

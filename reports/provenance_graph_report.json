@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-10-08 14:12:38 UTC",
+  "graph_nodes": 31,
+  "graph_edges": 29,
+  "entity_types": {
+    "User": 5,
+    "Device": 5,
+    "Process": 6,
+    "File": 5,
+    "IP": 4,
+    "USB": 2,
+    "Browser": 2,
+    "Cloud": 2
+  },
+  "users_evaluated": [
+    {
+      "user": "alice_dev",
+      "connected_entities_count": 6,
+      "suspicious_paths_count": 1,
+      "external_destinations_count": 1,
+      "usb_to_file_count": 0,
+      "file_to_cloud_count": 0,
+      "graph_risk": 34.0,
+      "risk_tier": "MEDIUM",
+      "attack_paths": [
+        [
+          "alice_dev -[:SPAWNED]-> bash_1042",
+          "bash_1042 -[:CONNECTED_IP]-> 140.82.121.4"
+        ]
+      ]
+    },
+    {
+      "user": "bob_finance",
+      "connected_entities_count": 5,
+      "suspicious_paths_count": 2,
+      "external_destinations_count": 0,
+      "usb_to_file_count": 1,
+      "file_to_cloud_count": 0,
+      "graph_risk": 72.5,
+      "risk_tier": "HIGH",
+      "attack_paths": [
+        [
+          "bob_finance -[:LOGGED_INTO]-> FIN-DESK-04",
+          "FIN-DESK-04 -[:CONNECTED_USB]-> USB-SANDISK-9842"
+        ],
+        [
+          "bob_finance -[:SPAWNED]-> powershell_4502",
+          "powershell_4502 -[:READ_FILE]-> C:/Finance/Q4_Salaries_Restricted.xlsx",
+          "C:/Finance/Q4_Salaries_Restricted.xlsx -[:TRANSFERRED_TO_USB]-> USB-SANDISK-9842"
+        ]
+      ]
+    },
+    {
+      "user": "charlie_admin",
+      "connected_entities_count": 7,
+      "suspicious_paths_count": 2,
+      "external_destinations_count": 2,
+      "usb_to_file_count": 0,
+      "file_to_cloud_count": 1,
+      "graph_risk": 95.0,
+      "risk_tier": "CRITICAL",
+      "attack_paths": [
+        [
+          "charlie_admin -[:SPAWNED]-> python3_6090",
+          "python3_6090 -[:READ_FILE]-> /etc/security/crown_jewel_keys.pem",
+          "/etc/security/crown_jewel_keys.pem -[:UPLOADED_TO_CLOUD]-> https://mega.nz/drop/secret_keys"
+        ],
+        [
+          "charlie_admin -[:SPAWNED]-> python3_6090",
+          "python3_6090 -[:LAUNCHED_BROWSER]-> Chrome_6120",
+          "Chrome_6120 -[:CONNECTED_IP]-> 185.190.140.10"
+        ]
+      ]
+    },
+    {
+      "user": "david_ops",
+      "connected_entities_count": 5,
+      "suspicious_paths_count": 1,
+      "external_destinations_count": 0,
+      "usb_to_file_count": 0,
+      "file_to_cloud_count": 0,
+      "graph_risk": 22.5,
+      "risk_tier": "LOW",
+      "attack_paths": [
+        [
+          "david_ops -[:SPAWNED]-> cmd_3301",
+          "cmd_3301 -[:CONNECTED_IP]-> 10.0.0.15"
+        ]
+      ]
+    },
+    {
+      "user": "eve_insider",
+      "connected_entities_count": 8,
+      "suspicious_paths_count": 4,
+      "external_destinations_count": 2,
+      "usb_to_file_count": 1,
+      "file_to_cloud_count": 1,
+      "graph_risk": 100.0,
+      "risk_tier": "CRITICAL",
+      "attack_paths": [
+        [
+          "eve_insider -[:LOGGED_INTO]-> HR-LAPTOP-03",
+          "HR-LAPTOP-03 -[:CONNECTED_USB]-> USB-KINGSTON-5512"
+        ],
+        [
+          "eve_insider -[:SPAWNED]-> explorer_1200",
+          "explorer_1200 -[:READ_FILE]-> D:/HR/Confidential_Layoffs_2026.docx",
+          "D:/HR/Confidential_Layoffs_2026.docx -[:TRANSFERRED_TO_USB]-> USB-KINGSTON-5512"
+        ],
+        [
+          "eve_insider -[:SPAWNED]-> explorer_1200",
+          "explorer_1200 -[:READ_FILE]-> D:/HR/Confidential_Layoffs_2026.docx",
+          "D:/HR/Confidential_Layoffs_2026.docx -[:UPLOADED_TO_CLOUD]-> https://dropbox.com/u/upload_drop"
+        ],
+        [
+          "eve_insider -[:SPAWNED]-> explorer_1200",
+          "explorer_1200 -[:LAUNCHED_BROWSER]-> Firefox_2100",
+          "Firefox_2100 -[:CONNECTED_IP]-> 162.125.64.1"
+        ]
+      ]
+    }
+  ]
+}
